@@ -7,66 +7,75 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		015BC302DE6A10F30DA3C689478819AA /* XMGNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C9C042B10D850708269209F43B42095 /* XMGNavBar.m */; };
+		04609D75FB408DE21F717F8FC8D80229 /* XMGMiddleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = E631FD327ACFCE345D1401523E305103 /* XMGMiddleView.xib */; };
 		05DE8CA8A836FB5C7BAAD4278B0B0BA7 /* Pods-HYNMain_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED59C902E9F6E027F0C0DED0622121BE /* Pods-HYNMain_Example-dummy.m */; };
-		0997881EC356925CDAB2526B2C87B1E7 /* HYNMain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4B273985177187CECD109231DBB317D2 /* HYNMain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		11318F8EE1B1C63C9F44B17D6816186E /* XMGMiddleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 38D1C943CF0E44C364BF486CD809E620 /* XMGMiddleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		15027C394B903FA965BC4F8D0D7028BD /* XMGNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = B68356ACDB52634DD13A06695B0E2CC1 /* XMGNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07FE386C640C01F5097FF957C04E3A5A /* XMGMiddleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD94723E476B7B60A2B70DAFD7B14A9 /* XMGMiddleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12B7E86056A3AE58FABD4B9A89210591 /* tabbar_np_playshadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE43B4D73623BFE712B60C396E89113 /* tabbar_np_playshadow@2x.png */; };
+		155480F603F25DD1CC649E5717D29F3C /* XMGNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 913C41FF620D5AC4F376BBA1590E2447 /* XMGNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		169ADF8EB74E16FAC411594B06C63C36 /* tabbar_np_loop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80E3E4DF2AD7E15B6C76E7FFF8EA4C /* tabbar_np_loop@3x.png */; };
+		1712943094A3B31BDEE404051889BBC8 /* tabbar_np_playshadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0045A5912261CF70A4DAEB802B37B9 /* tabbar_np_playshadow@3x.png */; };
 		1D3882FBD219EE1F0BC70BD25319C8B6 /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D0DCC7F16BFA8E181543751163267 /* UIView+XMGLayout.m */; };
-		205DBCD09366558C5EFB31AB68B9F55F /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B0A81025844A8C5E0FFE4EEAC4CFE3DB /* tabbar_bg@2x.png */; };
 		252A2F03AB236D22FDB4AF6ECE5AFDD1 /* UIImage+XMGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = EACE65008DCCB215238EFEC078442627 /* UIImage+XMGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		29142348D59F68AA9ABBCF27D951E3B2 /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 67BA364C29B59F252981C3AE5C993EB3 /* XMGTabBarController.m */; };
 		2AA5F0070CB80A4B923CC62AE1266A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
-		2FC9EA733F9DB92DE279FC1906D63BE1 /* tabbar_np_playshadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E901AC571D103F53B1EA03BBCCFFF813 /* tabbar_np_playshadow@2x.png */; };
-		3CE69D87600E9CE7D963BA54560ADD84 /* tabbar_np_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18F7011D19DF1256EC986B333048CDFF /* tabbar_np_shadow@3x.png */; };
-		3F0721D2B297FC20314B45F62B92CB7A /* tabbar_np_playnon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C885C43D4B10D6362455AA4A1E2430DA /* tabbar_np_playnon@3x.png */; };
+		2D6C2E9490EFA949432DE2C1CE708E3D /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DBDF0819860C70CF32A2F30E8B818B /* XMGTabBar.m */; };
+		2EFA45011D6E441BFDD2378CD9C56002 /* HYNMain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FEED110B47D9676E956D6A7FF0EA8C /* HYNMain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		38979EE69467F19F95A1D3099066BFFC /* tabbar_np_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A712A4BD88AB34BFC8468445BC02C0 /* tabbar_np_play@2x.png */; };
+		4106BDDF467145750E67A1A01D516F43 /* XMGTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 52245650447422B6F4DC943A45F9B927 /* XMGTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4742DA2332E5DA321B9A7E6A2B5D5A46 /* XMGTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2A611166C4F8EA6D9FFD4E2F59D969 /* XMGTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		48EA63DACAF56C0FCC7AE407605FD6BE /* tabbar_np_loop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048A8E84882C60DA1D0D83EF2D957586 /* tabbar_np_loop@2x.png */; };
 		48FEB3F6CF7760F97B04DCED39524106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
 		53C0D51DE5F3BB59F6BDEDAD36C8D2D1 /* Pods-HYNMain_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 551A128A574581D1BC8FB2FCEF245CAB /* Pods-HYNMain_Tests-dummy.m */; };
-		55E53516B4FEC3A329004A2EC6D9C72B /* tabbar_np_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = CA993C38A8E5A05537AEF307CFA9728C /* tabbar_np_normal@3x.png */; };
-		6587698984127F540AEA7934E55B9CC8 /* tabbar_np_playshadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 92F342C03779FB511C6B7EB80ACCEC0E /* tabbar_np_playshadow@3x.png */; };
-		68A079A2144BC8E6443CC021991C74F6 /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 997D603C016A98B21F9CACD191B86334 /* XMGNavigationController.m */; };
+		5CBA385B7ECB3BBA4CED51EAF5F04C08 /* tabbar_np_playnon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A834DA2938252B268CD5A613B9C444BB /* tabbar_np_playnon@2x.png */; };
+		64AA6C037AEC6F1FB6742F6E70972B89 /* tabbar_np_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB05F8992386C523C6A26128B1755E /* tabbar_np_shadow@3x.png */; };
+		6684497D3E9FBEBA8E7F4E63D02D38EB /* XMGMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F1A2620855CDAC6608AF9FEE6DF3CB /* XMGMiddleView.m */; };
+		683DC46FFC54A10870C5E807FD0B0002 /* tabbar_np_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA1F1ABE51431E36B9737AC42A233EC /* tabbar_np_play@3x.png */; };
 		6AF11C2A3BD33A8B3D8B47A9B5A9ECD4 /* HYNDEMO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D19D6E9F486287ED6D42382AAB63F /* HYNDEMO-dummy.m */; };
-		6D336A7512D1D6AF2B734EFC290E919D /* HYNMain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D954F5FF83C15A79AD25F1584C7B63C /* HYNMain.bundle */; };
 		6E194BB56DD8870F7FA033D66B418B86 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C0A9814F8CE4B3D34DB45CF84CA2A /* CALayer+PauseAimate.m */; };
-		6EEC3B711315DFA378D9CCACA9F0F5C1 /* XMGNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = EEA415DCBDD1DF8C8E6C296A4745B45E /* XMGNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		76C53100B751E5DB8D7AAC87492A48E6 /* XMGMiddleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 5F02966C24AC66EB77CCD044EEB4EB59 /* XMGMiddleView.xib */; };
-		77535687D783226149CBCE7B670D799F /* tabbar_np_playnon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 82903D7261A8D277BA09842DD4F71993 /* tabbar_np_playnon@2x.png */; };
-		8684AEA3EF13A07DE54DD7F7FE3B2A40 /* HYNMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = F14B9BB9957327288B51A5D096030E46 /* HYNMain-dummy.m */; };
-		8F14A20449CEFD70011C37D99ED05C12 /* tabbar_np_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = D10C77263C5697AF08DC295C10EB0C58 /* tabbar_np_normal@2x.png */; };
+		77044D79EEDA4565A8B1F8D9B49095D1 /* tabbar_np_playnon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A647165534CB88F716657F0170B238D0 /* tabbar_np_playnon@3x.png */; };
+		7AF7A1E1CFDBAB508699087591B2276B /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF8474324CC70831D79C441A4B18C2 /* XMGNavigationController.m */; };
+		8CB060CDDBEEE40B01198B6FBA4228A7 /* HYNMain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D954F5FF83C15A79AD25F1584C7B63C /* HYNMain.bundle */; };
 		94D12E414D3A76E61582A939363D1950 /* Pods-HYNMain_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF9DF6B08D83FEE6883CA5EFA49D044 /* Pods-HYNMain_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		98F122FDAC45413E9A0E3964425813EF /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = ECD16644DDED731E9841A34047BB469C /* XMGTabBar.m */; };
+		95CE3BCABF6384974F56EC8797E029DF /* HYNDEMO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2680D96ACF7FF816FC7B933E2F27602F /* HYNDEMO.framework */; };
+		97CD250BFFF4D5E9D2885684D2D97A62 /* MainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5F48C72D3B84C5A0E960938AB662AE /* MainModuleAPI.m */; };
+		97D0BE57CCBFED65C6D2AF832155BF50 /* tabbar_np_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B10D654DC15AEED06A0FBBA1E92CACD3 /* tabbar_np_shadow@2x.png */; };
+		9A8830609865B1C0ACFC5BD5461043DE /* tabbar_np_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C38E3931367A8AB713296D80C3933B5 /* tabbar_np_normal@2x.png */; };
 		9A930E3DCFD35C4F6DA67CF02CB5EED1 /* HYNDEMO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA84B73B1BE653118BACC556F4E6A4E /* HYNDEMO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9D273CB6CBEB01F38094822D16B0552E /* XMGTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 8F2FD1322345BE981528822655457211 /* XMGTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		A3688B3615D654A605F668BFD33A9306 /* tabbar_np_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = F41F82B252EE9F65CA33A9FE61A1C274 /* tabbar_np_play@3x.png */; };
-		AC3095755268559F74495C3CC8093573 /* tabbar_np_loop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = E5678440B33CF541749F049ED5B7CB5D /* tabbar_np_loop@3x.png */; };
+		9ACF2BEC033849566C09EA4F4956E0CD /* XMGNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68EEBE7BA9734F958B2EAEA6CEC43D /* XMGNavBar.m */; };
+		A20D505312C58770D307434FE8D72DA7 /* HYNMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EEEF2E84F71CE81AD62CECE7D2313 /* HYNMain-dummy.m */; };
+		A54BAE49526F29F5A12A071147ADFC3D /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BE01A58DB45FEFE3279250D645A662 /* XMGTabBarController.m */; };
+		A94B7476F264E9E3F093E35D7BA3951C /* XMGNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62794201F138B47F9F65A335BE8E2548 /* XMGNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACF10DAEAE58E7BE15DEA254C3565E26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
-		B277DCAB41B418C7940B0DA0C3DBBF1F /* XMGMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C23E9287BB84DFCDA743D56930BB29CB /* XMGMiddleView.m */; };
+		B5C8367951D69A8DD38D5FCA3B561B23 /* tabbar_np_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F644FD18B8F883402ABFF6EAE6D4D0 /* tabbar_np_normal@3x.png */; };
+		B8A769B74DC32DF9085271DF66574C0F /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBD6D081018D4D54A63480188C44147 /* tabbar_bg@2x.png */; };
 		BADA5EE689C59C613F9B52F638535B69 /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F7054BC8CDE777AE1287277DC51BC124 /* UIImage+XMGImage.m */; };
-		BDA85A0862C9AB4A569303FC51E1E241 /* tabbar_np_loop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 3B171073FF833D92368D61AA10713B6E /* tabbar_np_loop@2x.png */; };
-		C1C1740DFA26A6B4A04EC7923777AE18 /* tabbar_np_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = E88BC9F38BAC6B44E28578B33963AC91 /* tabbar_np_play@2x.png */; };
 		C552A161C786677A0619FF5B12ABD8B4 /* UIView+XMGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3980FDC36ECB03D04E4680A0ACDCD7 /* UIView+XMGLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C69D0B3D800ED52B890A0509B3CA5594 /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BFB8A9C9FC9F67E59F9FC3685401B9 /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDB8C06B793F3D687962249545706EEF /* Pods-HYNMain_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C79787C0F827F2F3EC363BCECC3F0D9 /* Pods-HYNMain_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		CF2447A6C36FEB89A0949445DD6834FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
-		D3C4E810807B3473ED07EABFACFC5892 /* XMGTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 447EC2FD2CAF92AE44C26036001ADC59 /* XMGTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		DFE3ED4B57FBACA21798465074505A56 /* tabbar_np_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5EA34B557FFCC385C83FDB87B16060D7 /* tabbar_np_shadow@2x.png */; };
-		EAFA567F7EC7E508ECA9618AE3CFED80 /* HYNDEMO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2680D96ACF7FF816FC7B933E2F27602F /* HYNDEMO.framework */; };
+		EAA17DEE147CA7AAAA1DB0BA8016A699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
+		F36F0D92BDC8A82928E1A7536DB898E2 /* MainModuleAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2281CB2083A77A94ED799EF2388BFC /* MainModuleAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		B494B06D88FF3666AD43412C3D1CCC4D /* PBXContainerItemProxy */ = {
+		CD8F1B361C1FB760948AA577D2A848C5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EBD4396CF239D852ED7E7E6DFAFF26E3;
+			remoteInfo = HYNMain;
+		};
+		CEA6EB16B8080319E65A5C6FFF837D9A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 74E8DDD57AB5A6D8233FC183CA1F27E1;
+			remoteInfo = "HYNMain-HYNMain";
+		};
+		E3D6D89459A959E025FC18E932CA9C25 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = C55E7C09BEC2B51734BFB79927155E3F;
 			remoteInfo = HYNDEMO;
-		};
-		CD8F1B361C1FB760948AA577D2A848C5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E32EE5078F0ACF729D7BE8A0DF8AE974;
-			remoteInfo = HYNMain;
 		};
 		E9C7592A6C8954CBD98C62C42A6F0DC0 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -75,90 +84,85 @@
 			remoteGlobalIDString = C55E7C09BEC2B51734BFB79927155E3F;
 			remoteInfo = HYNDEMO;
 		};
-		F1484421DE2598973931EA4CDF0D86BF /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 0E810F79799890A67D3032477FDA1147;
-			remoteInfo = "HYNMain-HYNMain";
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		01F644FD18B8F883402ABFF6EAE6D4D0 /* tabbar_np_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_normal@3x.png"; path = "HYNMain/Assets/tabbar_np_normal@3x.png"; sourceTree = "<group>"; };
+		048A8E84882C60DA1D0D83EF2D957586 /* tabbar_np_loop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_loop@2x.png"; path = "HYNMain/Assets/tabbar_np_loop@2x.png"; sourceTree = "<group>"; };
+		07AF8474324CC70831D79C441A4B18C2 /* XMGNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGNavigationController.m; sourceTree = "<group>"; };
 		0D7C96DA3A88259E78D55AEA7F3B5470 /* Pods-HYNMain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNMain_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		0EDEBF67CF615E690B47273C6D189C3D /* ResourceBundle-HYNMain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HYNMain-Info.plist"; sourceTree = "<group>"; };
 		0FA84B73B1BE653118BACC556F4E6A4E /* HYNDEMO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNDEMO-umbrella.h"; sourceTree = "<group>"; };
-		18F7011D19DF1256EC986B333048CDFF /* tabbar_np_shadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_shadow@3x.png"; path = "HYNMain/Assets/tabbar_np_shadow@3x.png"; sourceTree = "<group>"; };
+		14FEED110B47D9676E956D6A7FF0EA8C /* HYNMain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNMain-umbrella.h"; sourceTree = "<group>"; };
+		19DBBF304726317F9E7FCF60ED8CC469 /* HYNMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNMain-prefix.pch"; sourceTree = "<group>"; };
 		1C61F074DB9319561D425B546BC308AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		205A919980AD0B82895217D2CFF4CAD8 /* HYNMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYNMain.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		25DBDF0819860C70CF32A2F30E8B818B /* XMGTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGTabBar.m; sourceTree = "<group>"; };
 		2680D96ACF7FF816FC7B933E2F27602F /* HYNDEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYNDEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EACD49D6489077EC21A8DF3BA1A4CA /* Pods-HYNMain_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYNMain_Example.modulemap"; sourceTree = "<group>"; };
-		2C9C042B10D850708269209F43B42095 /* XMGNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGNavBar.m; path = HYNMain/Classes/View/XMGNavBar.m; sourceTree = "<group>"; };
 		2D200C427E61FFE7F988EF70CEB2D53B /* Pods-HYNMain_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYNMain_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYNMain.xcconfig; sourceTree = "<group>"; };
 		35C1CECD5AD27CB2144BC79D7457F78F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38D1C943CF0E44C364BF486CD809E620 /* XMGMiddleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGMiddleView.h; path = HYNMain/Classes/View/XMGMiddleView.h; sourceTree = "<group>"; };
-		3B171073FF833D92368D61AA10713B6E /* tabbar_np_loop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_loop@2x.png"; path = "HYNMain/Assets/tabbar_np_loop@2x.png"; sourceTree = "<group>"; };
+		38A712A4BD88AB34BFC8468445BC02C0 /* tabbar_np_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_play@2x.png"; path = "HYNMain/Assets/tabbar_np_play@2x.png"; sourceTree = "<group>"; };
 		3D5106D5D444D16FE9EB03D296C6030B /* HYNDEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYNDEMO.framework; path = HYNDEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40FADCB53B88C7F50E4B5E2556AE13F7 /* HYNDEMO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYNDEMO.modulemap; sourceTree = "<group>"; };
-		42AE909732D7F02BD4D820730A412674 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		447EC2FD2CAF92AE44C26036001ADC59 /* XMGTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGTabBar.h; path = HYNMain/Classes/View/XMGTabBar.h; sourceTree = "<group>"; };
 		494D19D6E9F486287ED6D42382AAB63F /* HYNDEMO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYNDEMO-dummy.m"; sourceTree = "<group>"; };
-		4B273985177187CECD109231DBB317D2 /* HYNMain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNMain-umbrella.h"; sourceTree = "<group>"; };
 		4D5E1C798C9471B645B983A55C030760 /* Pods-HYNMain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNMain_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		4D614E6BC7E980A17AF3E4806A940D45 /* HYNMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYNMain.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		4D954F5FF83C15A79AD25F1584C7B63C /* HYNMain.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HYNMain.bundle; path = "HYNMain-HYNMain.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FD94723E476B7B60A2B70DAFD7B14A9 /* XMGMiddleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGMiddleView.h; sourceTree = "<group>"; };
+		52245650447422B6F4DC943A45F9B927 /* XMGTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
 		5318C13C14B6A873EF1A55CC79AD3533 /* HYNDEMO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNDEMO-prefix.pch"; sourceTree = "<group>"; };
 		551A128A574581D1BC8FB2FCEF245CAB /* Pods-HYNMain_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYNMain_Tests-dummy.m"; sourceTree = "<group>"; };
+		5C38E3931367A8AB713296D80C3933B5 /* tabbar_np_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_normal@2x.png"; path = "HYNMain/Assets/tabbar_np_normal@2x.png"; sourceTree = "<group>"; };
 		5C79787C0F827F2F3EC363BCECC3F0D9 /* Pods-HYNMain_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYNMain_Example-umbrella.h"; sourceTree = "<group>"; };
-		5EA34B557FFCC385C83FDB87B16060D7 /* tabbar_np_shadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_shadow@2x.png"; path = "HYNMain/Assets/tabbar_np_shadow@2x.png"; sourceTree = "<group>"; };
-		5F02966C24AC66EB77CCD044EEB4EB59 /* XMGMiddleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = XMGMiddleView.xib; path = HYNMain/Classes/View/XMGMiddleView.xib; sourceTree = "<group>"; };
-		606BF69C949DC551416E5824F02F6F21 /* HYNMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNMain-prefix.pch"; sourceTree = "<group>"; };
-		67BA364C29B59F252981C3AE5C993EB3 /* XMGTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGTabBarController.m; path = HYNMain/Classes/Controller/XMGTabBarController.m; sourceTree = "<group>"; };
+		62794201F138B47F9F65A335BE8E2548 /* XMGNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGNavigationController.h; sourceTree = "<group>"; };
 		6861224A1EF1465ADF4266320D2278DC /* Pods_HYNMain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYNMain_Example.framework; path = "Pods-HYNMain_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6C938FEEC632BB0672B6F022668863F3 /* Pods-HYNMain_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYNMain_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6DB91EAD4C0E0E9160841172F6A701E6 /* Pods-HYNMain_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNMain_Example-resources.sh"; sourceTree = "<group>"; };
 		79D0707C657011E5B681BA2A9508AF6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D3980FDC36ECB03D04E4680A0ACDCD7 /* UIView+XMGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XMGLayout.h"; path = "HYNDEMO/Classes/Category/UIView+XMGLayout.h"; sourceTree = "<group>"; };
-		7D623D69C3CE9C8A0912DE2BFE604A91 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		82903D7261A8D277BA09842DD4F71993 /* tabbar_np_playnon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playnon@2x.png"; path = "HYNMain/Assets/tabbar_np_playnon@2x.png"; sourceTree = "<group>"; };
+		7E0045A5912261CF70A4DAEB802B37B9 /* tabbar_np_playshadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playshadow@3x.png"; path = "HYNMain/Assets/tabbar_np_playshadow@3x.png"; sourceTree = "<group>"; };
+		81D47C95201B7C811ECCC266ADCCD263 /* HYNMain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYNMain.modulemap; sourceTree = "<group>"; };
+		82DE3D64FAE625C52DA7BF4A73E6823A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		86BFB8A9C9FC9F67E59F9FC3685401B9 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PauseAimate.h"; path = "HYNDEMO/Classes/Category/CALayer+PauseAimate.h"; sourceTree = "<group>"; };
+		8A135B80DB3924C08B18F7AB88E26FD1 /* ResourceBundle-HYNMain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HYNMain-Info.plist"; sourceTree = "<group>"; };
 		8C56CE135A93FB98D520CB3A719CE847 /* Pods_HYNMain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYNMain_Tests.framework; path = "Pods-HYNMain_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0FD8D814E787B4DBFF5C45DBEE92DE /* Pods-HYNMain_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYNMain_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8F2FD1322345BE981528822655457211 /* XMGTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGTabBarController.h; path = HYNMain/Classes/Controller/XMGTabBarController.h; sourceTree = "<group>"; };
-		92F342C03779FB511C6B7EB80ACCEC0E /* tabbar_np_playshadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playshadow@3x.png"; path = "HYNMain/Assets/tabbar_np_playshadow@3x.png"; sourceTree = "<group>"; };
+		8E2281CB2083A77A94ED799EF2388BFC /* MainModuleAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainModuleAPI.h; sourceTree = "<group>"; };
+		913C41FF620D5AC4F376BBA1590E2447 /* XMGNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGNavBar.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		997D603C016A98B21F9CACD191B86334 /* XMGNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGNavigationController.m; path = HYNMain/Classes/Controller/XMGNavigationController.m; sourceTree = "<group>"; };
+		98F1A2620855CDAC6608AF9FEE6DF3CB /* XMGMiddleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGMiddleView.m; sourceTree = "<group>"; };
 		9B5D0DCC7F16BFA8E181543751163267 /* UIView+XMGLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XMGLayout.m"; path = "HYNDEMO/Classes/Category/UIView+XMGLayout.m"; sourceTree = "<group>"; };
 		9C8C0A9814F8CE4B3D34DB45CF84CA2A /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PauseAimate.m"; path = "HYNDEMO/Classes/Category/CALayer+PauseAimate.m"; sourceTree = "<group>"; };
 		A1B09F88CF9179D731BC789D37BFE043 /* HYNMain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYNMain.framework; path = HYNMain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3688C61091168798684459DA34621D6 /* Pods-HYNMain_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNMain_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A4D9CCACC1C608B6B3CF94AE0AA9901B /* Pods-HYNMain_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYNMain_Tests.modulemap"; sourceTree = "<group>"; };
+		A647165534CB88F716657F0170B238D0 /* tabbar_np_playnon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playnon@3x.png"; path = "HYNMain/Assets/tabbar_np_playnon@3x.png"; sourceTree = "<group>"; };
+		A834DA2938252B268CD5A613B9C444BB /* tabbar_np_playnon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playnon@2x.png"; path = "HYNMain/Assets/tabbar_np_playnon@2x.png"; sourceTree = "<group>"; };
+		A992A2CD1E49CC75C2FA0422F8A3B36F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AAF9DF6B08D83FEE6883CA5EFA49D044 /* Pods-HYNMain_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYNMain_Tests-umbrella.h"; sourceTree = "<group>"; };
-		B0A81025844A8C5E0FFE4EEAC4CFE3DB /* tabbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_bg@2x.png"; path = "HYNMain/Assets/tabbar_bg@2x.png"; sourceTree = "<group>"; };
-		B68356ACDB52634DD13A06695B0E2CC1 /* XMGNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGNavBar.h; path = HYNMain/Classes/View/XMGNavBar.h; sourceTree = "<group>"; };
+		ADA1F1ABE51431E36B9737AC42A233EC /* tabbar_np_play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_play@3x.png"; path = "HYNMain/Assets/tabbar_np_play@3x.png"; sourceTree = "<group>"; };
+		B10D654DC15AEED06A0FBBA1E92CACD3 /* tabbar_np_shadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_shadow@2x.png"; path = "HYNMain/Assets/tabbar_np_shadow@2x.png"; sourceTree = "<group>"; };
 		BA56F7A002B1C43BE83F92A1FC6612D7 /* Pods-HYNMain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNMain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BF5572D13136CD5EAEA5AD8E38307AE0 /* HYNMain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYNMain.modulemap; sourceTree = "<group>"; };
-		C23E9287BB84DFCDA743D56930BB29CB /* XMGMiddleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGMiddleView.m; path = HYNMain/Classes/View/XMGMiddleView.m; sourceTree = "<group>"; };
-		C39AED78C02B464C597003E5406040FB /* HYNMain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYNMain.xcconfig; sourceTree = "<group>"; };
-		C885C43D4B10D6362455AA4A1E2430DA /* tabbar_np_playnon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playnon@3x.png"; path = "HYNMain/Assets/tabbar_np_playnon@3x.png"; sourceTree = "<group>"; };
-		CA993C38A8E5A05537AEF307CFA9728C /* tabbar_np_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_normal@3x.png"; path = "HYNMain/Assets/tabbar_np_normal@3x.png"; sourceTree = "<group>"; };
-		D10C77263C5697AF08DC295C10EB0C58 /* tabbar_np_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_normal@2x.png"; path = "HYNMain/Assets/tabbar_np_normal@2x.png"; sourceTree = "<group>"; };
+		BAE43B4D73623BFE712B60C396E89113 /* tabbar_np_playshadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playshadow@2x.png"; path = "HYNMain/Assets/tabbar_np_playshadow@2x.png"; sourceTree = "<group>"; };
+		BB80E3E4DF2AD7E15B6C76E7FFF8EA4C /* tabbar_np_loop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_loop@3x.png"; path = "HYNMain/Assets/tabbar_np_loop@3x.png"; sourceTree = "<group>"; };
+		BBBD6D081018D4D54A63480188C44147 /* tabbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_bg@2x.png"; path = "HYNMain/Assets/tabbar_bg@2x.png"; sourceTree = "<group>"; };
+		BC5F48C72D3B84C5A0E960938AB662AE /* MainModuleAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainModuleAPI.m; sourceTree = "<group>"; };
+		C8BE01A58DB45FEFE3279250D645A662 /* XMGTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
+		CBA457E4BF3AC74E561AB7692C12A14E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		CE68EEBE7BA9734F958B2EAEA6CEC43D /* XMGNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGNavBar.m; sourceTree = "<group>"; };
 		D1CF148C14943FFB8C8718C6D91CA5B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D8C2592AC3CE4E28F9DACF9DDD484B39 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D4CB05F8992386C523C6A26128B1755E /* tabbar_np_shadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_shadow@3x.png"; path = "HYNMain/Assets/tabbar_np_shadow@3x.png"; sourceTree = "<group>"; };
 		DDEA699E8E0A20AD95A4CB7E689FFDEE /* Pods-HYNMain_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNMain_Tests-resources.sh"; sourceTree = "<group>"; };
+		E00EEEF2E84F71CE81AD62CECE7D2313 /* HYNMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYNMain-dummy.m"; sourceTree = "<group>"; };
 		E1A55F222D5DEADB9E4D1EAA5FDB6045 /* HYNDEMO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYNDEMO.xcconfig; sourceTree = "<group>"; };
-		E5678440B33CF541749F049ED5B7CB5D /* tabbar_np_loop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_loop@3x.png"; path = "HYNMain/Assets/tabbar_np_loop@3x.png"; sourceTree = "<group>"; };
-		E88BC9F38BAC6B44E28578B33963AC91 /* tabbar_np_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_play@2x.png"; path = "HYNMain/Assets/tabbar_np_play@2x.png"; sourceTree = "<group>"; };
-		E901AC571D103F53B1EA03BBCCFFF813 /* tabbar_np_playshadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playshadow@2x.png"; path = "HYNMain/Assets/tabbar_np_playshadow@2x.png"; sourceTree = "<group>"; };
+		E631FD327ACFCE345D1401523E305103 /* XMGMiddleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = XMGMiddleView.xib; sourceTree = "<group>"; };
 		EACE65008DCCB215238EFEC078442627 /* UIImage+XMGImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XMGImage.h"; path = "HYNDEMO/Classes/Category/UIImage+XMGImage.h"; sourceTree = "<group>"; };
-		ECD16644DDED731E9841A34047BB469C /* XMGTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = XMGTabBar.m; path = HYNMain/Classes/View/XMGTabBar.m; sourceTree = "<group>"; };
 		ED59C902E9F6E027F0C0DED0622121BE /* Pods-HYNMain_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYNMain_Example-dummy.m"; sourceTree = "<group>"; };
-		EEA415DCBDD1DF8C8E6C296A4745B45E /* XMGNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = XMGNavigationController.h; path = HYNMain/Classes/Controller/XMGNavigationController.h; sourceTree = "<group>"; };
 		F05D711861109BD5CFE79CA9F7AC69EF /* Pods-HYNMain_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYNMain_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
-		F14B9BB9957327288B51A5D096030E46 /* HYNMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYNMain-dummy.m"; sourceTree = "<group>"; };
 		F3B9C1C8AB44D41CF2ED2504A7758091 /* Pods-HYNMain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNMain_Example.release.xcconfig"; sourceTree = "<group>"; };
-		F41F82B252EE9F65CA33A9FE61A1C274 /* tabbar_np_play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_play@3x.png"; path = "HYNMain/Assets/tabbar_np_play@3x.png"; sourceTree = "<group>"; };
 		F4FAC0764699F939FB864737D46600AA /* Pods-HYNMain_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNMain_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F7054BC8CDE777AE1287277DC51BC124 /* UIImage+XMGImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XMGImage.m"; path = "HYNDEMO/Classes/Category/UIImage+XMGImage.m"; sourceTree = "<group>"; };
+		FD2A611166C4F8EA6D9FFD4E2F59D969 /* XMGTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGTabBar.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -167,13 +171,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACF10DAEAE58E7BE15DEA254C3565E26 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		292B05F2B582EE1E94D00988EE6B7107 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -193,39 +190,46 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D002018A07DFE6C66EF80174C3DD8316 /* Frameworks */ = {
+		924227A487AC9A6C6043C5917018F942 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CF2447A6C36FEB89A0949445DD6834FF /* Foundation.framework in Frameworks */,
-				EAFA567F7EC7E508ECA9618AE3CFED80 /* HYNDEMO.framework in Frameworks */,
+				EAA17DEE147CA7AAAA1DB0BA8016A699 /* Foundation.framework in Frameworks */,
+				95CE3BCABF6384974F56EC8797E029DF /* HYNDEMO.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C1D0512E5177170C983D1421A70B8827 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0A5892B85B04BF3520C1FEF7296C5BB7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4FD94723E476B7B60A2B70DAFD7B14A9 /* XMGMiddleView.h */,
+				98F1A2620855CDAC6608AF9FEE6DF3CB /* XMGMiddleView.m */,
+				E631FD327ACFCE345D1401523E305103 /* XMGMiddleView.xib */,
+				913C41FF620D5AC4F376BBA1590E2447 /* XMGNavBar.h */,
+				CE68EEBE7BA9734F958B2EAEA6CEC43D /* XMGNavBar.m */,
+				FD2A611166C4F8EA6D9FFD4E2F59D969 /* XMGTabBar.h */,
+				25DBDF0819860C70CF32A2F30E8B818B /* XMGTabBar.m */,
+			);
+			name = View;
+			path = HYNMain/Classes/View;
+			sourceTree = "<group>";
+		};
 		180AB246F0E8BB6A87908363C281F37E /* Pods */ = {
 			isa = PBXGroup;
 			children = (
 				46284C530F70AC3E6D6B59C46F45EC38 /* HYNDEMO */,
 			);
 			name = Pods;
-			sourceTree = "<group>";
-		};
-		1B08B19DCCD614715ED3BEB43A7A5D2E /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				BF5572D13136CD5EAEA5AD8E38307AE0 /* HYNMain.modulemap */,
-				C39AED78C02B464C597003E5406040FB /* HYNMain.xcconfig */,
-				F14B9BB9957327288B51A5D096030E46 /* HYNMain-dummy.m */,
-				606BF69C949DC551416E5824F02F6F21 /* HYNMain-prefix.pch */,
-				4B273985177187CECD109231DBB317D2 /* HYNMain-umbrella.h */,
-				D8C2592AC3CE4E28F9DACF9DDD484B39 /* Info.plist */,
-				0EDEBF67CF615E690B47273C6D189C3D /* ResourceBundle-HYNMain-Info.plist */,
-			);
-			name = "Support Files";
-			path = "Example/Pods/Target Support Files/HYNMain";
 			sourceTree = "<group>";
 		};
 		231DA6814A579F81D113BDEC48153A1A /* Targets Support Files */ = {
@@ -235,6 +239,24 @@
 				3A67198C0A0D42551DD11D56E9CE7846 /* Pods-HYNMain_Tests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2D0E32CD8C18E5F69E1117439B997794 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				205A919980AD0B82895217D2CFF4CAD8 /* HYNMain.podspec */,
+				CBA457E4BF3AC74E561AB7692C12A14E /* LICENSE */,
+				A992A2CD1E49CC75C2FA0422F8A3B36F /* README.md */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		3384E4A4A95659256F6E0628E3C0CB7A /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9739919549532EF4CC1E7CA85987F16A /* HYNMain */,
+			);
+			name = "Development Pods";
 			sourceTree = "<group>";
 		};
 		351CCE27A70DF9A8A98B03327CC01539 /* Support Files */ = {
@@ -322,25 +344,21 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		6A526463AE64611EC8F578940EFB55CB /* View */ = {
+		70998DCE52304467172632D4C13F9CF4 /* PublicAPI */ = {
 			isa = PBXGroup;
 			children = (
-				38D1C943CF0E44C364BF486CD809E620 /* XMGMiddleView.h */,
-				C23E9287BB84DFCDA743D56930BB29CB /* XMGMiddleView.m */,
-				5F02966C24AC66EB77CCD044EEB4EB59 /* XMGMiddleView.xib */,
-				B68356ACDB52634DD13A06695B0E2CC1 /* XMGNavBar.h */,
-				2C9C042B10D850708269209F43B42095 /* XMGNavBar.m */,
-				447EC2FD2CAF92AE44C26036001ADC59 /* XMGTabBar.h */,
-				ECD16644DDED731E9841A34047BB469C /* XMGTabBar.m */,
+				8E2281CB2083A77A94ED799EF2388BFC /* MainModuleAPI.h */,
+				BC5F48C72D3B84C5A0E960938AB662AE /* MainModuleAPI.m */,
 			);
-			name = View;
+			name = PublicAPI;
+			path = HYNMain/Classes/PublicAPI;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
 			isa = PBXGroup;
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
-				D4042C9A78C7065E5B589DD6CA7016DD /* Development Pods */,
+				3384E4A4A95659256F6E0628E3C0CB7A /* Development Pods */,
 				952351DFF7DA79ACC0A39281E2AA190F /* Frameworks */,
 				180AB246F0E8BB6A87908363C281F37E /* Pods */,
 				55D672C2DF3696C3FC6895191F3C0C3B /* Products */,
@@ -357,27 +375,18 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9678B6D52911AC6040B864BCE4DCD18E /* HYNMain */ = {
+		9739919549532EF4CC1E7CA85987F16A /* HYNMain */ = {
 			isa = PBXGroup;
 			children = (
-				FEAFC56C144E4DC8ADE43EBC3C1F3080 /* Controller */,
-				9EC3DC28B5BB20BA2192537E1237B6E3 /* Pod */,
-				E615451E6054547A2EEBDF4A2D0C0855 /* Resources */,
-				1B08B19DCCD614715ED3BEB43A7A5D2E /* Support Files */,
-				6A526463AE64611EC8F578940EFB55CB /* View */,
+				B1DDD8B6EABCD37F8B3E111E9821C60C /* Controller */,
+				2D0E32CD8C18E5F69E1117439B997794 /* Pod */,
+				70998DCE52304467172632D4C13F9CF4 /* PublicAPI */,
+				C5635C56E8C12B1CBFBDDFA5B6CAA264 /* Resources */,
+				F3FC47419C67FA77BE100028E306DF00 /* Support Files */,
+				0A5892B85B04BF3520C1FEF7296C5BB7 /* View */,
 			);
 			name = HYNMain;
 			path = ../..;
-			sourceTree = "<group>";
-		};
-		9EC3DC28B5BB20BA2192537E1237B6E3 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4D614E6BC7E980A17AF3E4806A940D45 /* HYNMain.podspec */,
-				42AE909732D7F02BD4D820730A412674 /* LICENSE */,
-				7D623D69C3CE9C8A0912DE2BFE604A91 /* README.md */,
-			);
-			name = Pod;
 			sourceTree = "<group>";
 		};
 		A926489AB450E303B21CCEFD2C26363D /* iOS */ = {
@@ -388,58 +397,67 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D4042C9A78C7065E5B589DD6CA7016DD /* Development Pods */ = {
+		B1DDD8B6EABCD37F8B3E111E9821C60C /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				9678B6D52911AC6040B864BCE4DCD18E /* HYNMain */,
+				62794201F138B47F9F65A335BE8E2548 /* XMGNavigationController.h */,
+				07AF8474324CC70831D79C441A4B18C2 /* XMGNavigationController.m */,
+				52245650447422B6F4DC943A45F9B927 /* XMGTabBarController.h */,
+				C8BE01A58DB45FEFE3279250D645A662 /* XMGTabBarController.m */,
 			);
-			name = "Development Pods";
+			name = Controller;
+			path = HYNMain/Classes/Controller;
 			sourceTree = "<group>";
 		};
-		E615451E6054547A2EEBDF4A2D0C0855 /* Resources */ = {
+		C5635C56E8C12B1CBFBDDFA5B6CAA264 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				B0A81025844A8C5E0FFE4EEAC4CFE3DB /* tabbar_bg@2x.png */,
-				3B171073FF833D92368D61AA10713B6E /* tabbar_np_loop@2x.png */,
-				E5678440B33CF541749F049ED5B7CB5D /* tabbar_np_loop@3x.png */,
-				D10C77263C5697AF08DC295C10EB0C58 /* tabbar_np_normal@2x.png */,
-				CA993C38A8E5A05537AEF307CFA9728C /* tabbar_np_normal@3x.png */,
-				E88BC9F38BAC6B44E28578B33963AC91 /* tabbar_np_play@2x.png */,
-				F41F82B252EE9F65CA33A9FE61A1C274 /* tabbar_np_play@3x.png */,
-				82903D7261A8D277BA09842DD4F71993 /* tabbar_np_playnon@2x.png */,
-				C885C43D4B10D6362455AA4A1E2430DA /* tabbar_np_playnon@3x.png */,
-				E901AC571D103F53B1EA03BBCCFFF813 /* tabbar_np_playshadow@2x.png */,
-				92F342C03779FB511C6B7EB80ACCEC0E /* tabbar_np_playshadow@3x.png */,
-				5EA34B557FFCC385C83FDB87B16060D7 /* tabbar_np_shadow@2x.png */,
-				18F7011D19DF1256EC986B333048CDFF /* tabbar_np_shadow@3x.png */,
+				BBBD6D081018D4D54A63480188C44147 /* tabbar_bg@2x.png */,
+				048A8E84882C60DA1D0D83EF2D957586 /* tabbar_np_loop@2x.png */,
+				BB80E3E4DF2AD7E15B6C76E7FFF8EA4C /* tabbar_np_loop@3x.png */,
+				5C38E3931367A8AB713296D80C3933B5 /* tabbar_np_normal@2x.png */,
+				01F644FD18B8F883402ABFF6EAE6D4D0 /* tabbar_np_normal@3x.png */,
+				38A712A4BD88AB34BFC8468445BC02C0 /* tabbar_np_play@2x.png */,
+				ADA1F1ABE51431E36B9737AC42A233EC /* tabbar_np_play@3x.png */,
+				A834DA2938252B268CD5A613B9C444BB /* tabbar_np_playnon@2x.png */,
+				A647165534CB88F716657F0170B238D0 /* tabbar_np_playnon@3x.png */,
+				BAE43B4D73623BFE712B60C396E89113 /* tabbar_np_playshadow@2x.png */,
+				7E0045A5912261CF70A4DAEB802B37B9 /* tabbar_np_playshadow@3x.png */,
+				B10D654DC15AEED06A0FBBA1E92CACD3 /* tabbar_np_shadow@2x.png */,
+				D4CB05F8992386C523C6A26128B1755E /* tabbar_np_shadow@3x.png */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
 		};
-		FEAFC56C144E4DC8ADE43EBC3C1F3080 /* Controller */ = {
+		F3FC47419C67FA77BE100028E306DF00 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				EEA415DCBDD1DF8C8E6C296A4745B45E /* XMGNavigationController.h */,
-				997D603C016A98B21F9CACD191B86334 /* XMGNavigationController.m */,
-				8F2FD1322345BE981528822655457211 /* XMGTabBarController.h */,
-				67BA364C29B59F252981C3AE5C993EB3 /* XMGTabBarController.m */,
+				81D47C95201B7C811ECCC266ADCCD263 /* HYNMain.modulemap */,
+				2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */,
+				E00EEEF2E84F71CE81AD62CECE7D2313 /* HYNMain-dummy.m */,
+				19DBBF304726317F9E7FCF60ED8CC469 /* HYNMain-prefix.pch */,
+				14FEED110B47D9676E956D6A7FF0EA8C /* HYNMain-umbrella.h */,
+				82DE3D64FAE625C52DA7BF4A73E6823A /* Info.plist */,
+				8A135B80DB3924C08B18F7AB88E26FD1 /* ResourceBundle-HYNMain-Info.plist */,
 			);
-			name = Controller;
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/HYNMain";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		262FC2C0D76EA7C501406A3FDA1CE039 /* Headers */ = {
+		30CD7B3AD78F29C43B58436046267EFC /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0997881EC356925CDAB2526B2C87B1E7 /* HYNMain-umbrella.h in Headers */,
-				11318F8EE1B1C63C9F44B17D6816186E /* XMGMiddleView.h in Headers */,
-				15027C394B903FA965BC4F8D0D7028BD /* XMGNavBar.h in Headers */,
-				6EEC3B711315DFA378D9CCACA9F0F5C1 /* XMGNavigationController.h in Headers */,
-				D3C4E810807B3473ED07EABFACFC5892 /* XMGTabBar.h in Headers */,
-				9D273CB6CBEB01F38094822D16B0552E /* XMGTabBarController.h in Headers */,
+				2EFA45011D6E441BFDD2378CD9C56002 /* HYNMain-umbrella.h in Headers */,
+				F36F0D92BDC8A82928E1A7536DB898E2 /* MainModuleAPI.h in Headers */,
+				07FE386C640C01F5097FF957C04E3A5A /* XMGMiddleView.h in Headers */,
+				155480F603F25DD1CC649E5717D29F3C /* XMGNavBar.h in Headers */,
+				A94B7476F264E9E3F093E35D7BA3951C /* XMGNavigationController.h in Headers */,
+				4742DA2332E5DA321B9A7E6A2B5D5A46 /* XMGTabBar.h in Headers */,
+				4106BDDF467145750E67A1A01D516F43 /* XMGTabBarController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -473,23 +491,6 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		0E810F79799890A67D3032477FDA1147 /* HYNMain-HYNMain */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 38ADCF1A10C8E77158372D17DDA47DBB /* Build configuration list for PBXNativeTarget "HYNMain-HYNMain" */;
-			buildPhases = (
-				4615DE956F0B7E21ACFC66650E96E493 /* Sources */,
-				292B05F2B582EE1E94D00988EE6B7107 /* Frameworks */,
-				AD32338956ACBD9EAB4F9397B9D09372 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "HYNMain-HYNMain";
-			productName = "HYNMain-HYNMain";
-			productReference = 4D954F5FF83C15A79AD25F1584C7B63C /* HYNMain.bundle */;
-			productType = "com.apple.product-type.bundle";
-		};
 		60B3CAFBF5C198DA01723E4355AAEC48 /* Pods-HYNMain_Tests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8E615AEDC3FFDA6E5B827592206855CD /* Build configuration list for PBXNativeTarget "Pods-HYNMain_Tests" */;
@@ -506,6 +507,23 @@
 			productName = "Pods-HYNMain_Tests";
 			productReference = 8C56CE135A93FB98D520CB3A719CE847 /* Pods_HYNMain_Tests.framework */;
 			productType = "com.apple.product-type.framework";
+		};
+		74E8DDD57AB5A6D8233FC183CA1F27E1 /* HYNMain-HYNMain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8950100239E801137DF3BD634E04B0F5 /* Build configuration list for PBXNativeTarget "HYNMain-HYNMain" */;
+			buildPhases = (
+				97B1D96843930370C75B8CD3EE86ADCB /* Sources */,
+				C1D0512E5177170C983D1421A70B8827 /* Frameworks */,
+				AA8C1C1F8ECE7E9930DEF33AB79C1B3B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "HYNMain-HYNMain";
+			productName = "HYNMain-HYNMain";
+			productReference = 4D954F5FF83C15A79AD25F1584C7B63C /* HYNMain.bundle */;
+			productType = "com.apple.product-type.bundle";
 		};
 		933F6B154488AAEE3EE8AF21701D5815 /* Pods-HYNMain_Example */ = {
 			isa = PBXNativeTarget;
@@ -543,20 +561,20 @@
 			productReference = 3D5106D5D444D16FE9EB03D296C6030B /* HYNDEMO.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		E32EE5078F0ACF729D7BE8A0DF8AE974 /* HYNMain */ = {
+		EBD4396CF239D852ED7E7E6DFAFF26E3 /* HYNMain */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = C99E9BE5CB9D2DC67917591DD1D5D41B /* Build configuration list for PBXNativeTarget "HYNMain" */;
+			buildConfigurationList = BB39F048AE39C9B7FDB6795305A25E69 /* Build configuration list for PBXNativeTarget "HYNMain" */;
 			buildPhases = (
-				8FE13948A8411F332E6191A5CB3C4A3C /* Sources */,
-				D002018A07DFE6C66EF80174C3DD8316 /* Frameworks */,
-				1321D616B1F709A609007755EE037C7D /* Resources */,
-				262FC2C0D76EA7C501406A3FDA1CE039 /* Headers */,
+				537A755E581D928095390261E3F4C0C4 /* Sources */,
+				924227A487AC9A6C6043C5917018F942 /* Frameworks */,
+				6083DB096ED882DA0F04113D3A41D40F /* Resources */,
+				30CD7B3AD78F29C43B58436046267EFC /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				E87F2457143083236B4312FEED6F480B /* PBXTargetDependency */,
-				2915FD7EC23075990EF69A66E83084F7 /* PBXTargetDependency */,
+				FFDB4E1DB41E703D9FC40430C2E43C48 /* PBXTargetDependency */,
+				F7872545005DFA378892F4ED3C57F798 /* PBXTargetDependency */,
 			);
 			name = HYNMain;
 			productName = HYNMain;
@@ -585,8 +603,8 @@
 			projectRoot = "";
 			targets = (
 				C55E7C09BEC2B51734BFB79927155E3F /* HYNDEMO */,
-				E32EE5078F0ACF729D7BE8A0DF8AE974 /* HYNMain */,
-				0E810F79799890A67D3032477FDA1147 /* HYNMain-HYNMain */,
+				EBD4396CF239D852ED7E7E6DFAFF26E3 /* HYNMain */,
+				74E8DDD57AB5A6D8233FC183CA1F27E1 /* HYNMain-HYNMain */,
 				933F6B154488AAEE3EE8AF21701D5815 /* Pods-HYNMain_Example */,
 				60B3CAFBF5C198DA01723E4355AAEC48 /* Pods-HYNMain_Tests */,
 			);
@@ -594,41 +612,49 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		1321D616B1F709A609007755EE037C7D /* Resources */ = {
+		6083DB096ED882DA0F04113D3A41D40F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6D336A7512D1D6AF2B734EFC290E919D /* HYNMain.bundle in Resources */,
+				8CB060CDDBEEE40B01198B6FBA4228A7 /* HYNMain.bundle in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AD32338956ACBD9EAB4F9397B9D09372 /* Resources */ = {
+		AA8C1C1F8ECE7E9930DEF33AB79C1B3B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				205DBCD09366558C5EFB31AB68B9F55F /* tabbar_bg@2x.png in Resources */,
-				BDA85A0862C9AB4A569303FC51E1E241 /* tabbar_np_loop@2x.png in Resources */,
-				AC3095755268559F74495C3CC8093573 /* tabbar_np_loop@3x.png in Resources */,
-				8F14A20449CEFD70011C37D99ED05C12 /* tabbar_np_normal@2x.png in Resources */,
-				55E53516B4FEC3A329004A2EC6D9C72B /* tabbar_np_normal@3x.png in Resources */,
-				C1C1740DFA26A6B4A04EC7923777AE18 /* tabbar_np_play@2x.png in Resources */,
-				A3688B3615D654A605F668BFD33A9306 /* tabbar_np_play@3x.png in Resources */,
-				77535687D783226149CBCE7B670D799F /* tabbar_np_playnon@2x.png in Resources */,
-				3F0721D2B297FC20314B45F62B92CB7A /* tabbar_np_playnon@3x.png in Resources */,
-				2FC9EA733F9DB92DE279FC1906D63BE1 /* tabbar_np_playshadow@2x.png in Resources */,
-				6587698984127F540AEA7934E55B9CC8 /* tabbar_np_playshadow@3x.png in Resources */,
-				DFE3ED4B57FBACA21798465074505A56 /* tabbar_np_shadow@2x.png in Resources */,
-				3CE69D87600E9CE7D963BA54560ADD84 /* tabbar_np_shadow@3x.png in Resources */,
+				B8A769B74DC32DF9085271DF66574C0F /* tabbar_bg@2x.png in Resources */,
+				48EA63DACAF56C0FCC7AE407605FD6BE /* tabbar_np_loop@2x.png in Resources */,
+				169ADF8EB74E16FAC411594B06C63C36 /* tabbar_np_loop@3x.png in Resources */,
+				9A8830609865B1C0ACFC5BD5461043DE /* tabbar_np_normal@2x.png in Resources */,
+				B5C8367951D69A8DD38D5FCA3B561B23 /* tabbar_np_normal@3x.png in Resources */,
+				38979EE69467F19F95A1D3099066BFFC /* tabbar_np_play@2x.png in Resources */,
+				683DC46FFC54A10870C5E807FD0B0002 /* tabbar_np_play@3x.png in Resources */,
+				5CBA385B7ECB3BBA4CED51EAF5F04C08 /* tabbar_np_playnon@2x.png in Resources */,
+				77044D79EEDA4565A8B1F8D9B49095D1 /* tabbar_np_playnon@3x.png in Resources */,
+				12B7E86056A3AE58FABD4B9A89210591 /* tabbar_np_playshadow@2x.png in Resources */,
+				1712943094A3B31BDEE404051889BBC8 /* tabbar_np_playshadow@3x.png in Resources */,
+				97D0BE57CCBFED65C6D2AF832155BF50 /* tabbar_np_shadow@2x.png in Resources */,
+				64AA6C037AEC6F1FB6742F6E70972B89 /* tabbar_np_shadow@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4615DE956F0B7E21ACFC66650E96E493 /* Sources */ = {
+		537A755E581D928095390261E3F4C0C4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A20D505312C58770D307434FE8D72DA7 /* HYNMain-dummy.m in Sources */,
+				97CD250BFFF4D5E9D2885684D2D97A62 /* MainModuleAPI.m in Sources */,
+				6684497D3E9FBEBA8E7F4E63D02D38EB /* XMGMiddleView.m in Sources */,
+				04609D75FB408DE21F717F8FC8D80229 /* XMGMiddleView.xib in Sources */,
+				9ACF2BEC033849566C09EA4F4956E0CD /* XMGNavBar.m in Sources */,
+				7AF7A1E1CFDBAB508699087591B2276B /* XMGNavigationController.m in Sources */,
+				2D6C2E9490EFA949432DE2C1CE708E3D /* XMGTabBar.m in Sources */,
+				A54BAE49526F29F5A12A071147ADFC3D /* XMGTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -640,17 +666,10 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		8FE13948A8411F332E6191A5CB3C4A3C /* Sources */ = {
+		97B1D96843930370C75B8CD3EE86ADCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8684AEA3EF13A07DE54DD7F7FE3B2A40 /* HYNMain-dummy.m in Sources */,
-				B277DCAB41B418C7940B0DA0C3DBBF1F /* XMGMiddleView.m in Sources */,
-				76C53100B751E5DB8D7AAC87492A48E6 /* XMGMiddleView.xib in Sources */,
-				015BC302DE6A10F30DA3C689478819AA /* XMGNavBar.m in Sources */,
-				68A079A2144BC8E6443CC021991C74F6 /* XMGNavigationController.m in Sources */,
-				98F122FDAC45413E9A0E3964425813EF /* XMGTabBar.m in Sources */,
-				29142348D59F68AA9ABBCF27D951E3B2 /* XMGTabBarController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -676,16 +695,10 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		2915FD7EC23075990EF69A66E83084F7 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "HYNMain-HYNMain";
-			target = 0E810F79799890A67D3032477FDA1147 /* HYNMain-HYNMain */;
-			targetProxy = F1484421DE2598973931EA4CDF0D86BF /* PBXContainerItemProxy */;
-		};
 		54D7DDAA77AB0EE4B38B7B7461FA2657 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HYNMain;
-			target = E32EE5078F0ACF729D7BE8A0DF8AE974 /* HYNMain */;
+			target = EBD4396CF239D852ED7E7E6DFAFF26E3 /* HYNMain */;
 			targetProxy = CD8F1B361C1FB760948AA577D2A848C5 /* PBXContainerItemProxy */;
 		};
 		731AD7140146CE2C27040DABDCE18B03 /* PBXTargetDependency */ = {
@@ -694,11 +707,17 @@
 			target = C55E7C09BEC2B51734BFB79927155E3F /* HYNDEMO */;
 			targetProxy = E9C7592A6C8954CBD98C62C42A6F0DC0 /* PBXContainerItemProxy */;
 		};
-		E87F2457143083236B4312FEED6F480B /* PBXTargetDependency */ = {
+		F7872545005DFA378892F4ED3C57F798 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "HYNMain-HYNMain";
+			target = 74E8DDD57AB5A6D8233FC183CA1F27E1 /* HYNMain-HYNMain */;
+			targetProxy = CEA6EB16B8080319E65A5C6FFF837D9A /* PBXContainerItemProxy */;
+		};
+		FFDB4E1DB41E703D9FC40430C2E43C48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = HYNDEMO;
 			target = C55E7C09BEC2B51734BFB79927155E3F /* HYNDEMO */;
-			targetProxy = B494B06D88FF3666AD43412C3D1CCC4D /* PBXContainerItemProxy */;
+			targetProxy = E3D6D89459A959E025FC18E932CA9C25 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -763,6 +782,36 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
+		};
+		3683CDAAF946A4DE4F262E4E02F8300C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/HYNMain/HYNMain-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/HYNMain/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/HYNMain/HYNMain.modulemap";
+				PRODUCT_NAME = HYNMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
 		};
 		5011B865762FC0C0A28ECEC4CB63DC68 /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -857,35 +906,6 @@
 			};
 			name = Release;
 		};
-		67B53FFE53DC5E10B30E04EC2E61FE2D /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C39AED78C02B464C597003E5406040FB /* HYNMain.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				GCC_PREFIX_HEADER = "Target Support Files/HYNMain/HYNMain-prefix.pch";
-				INFOPLIST_FILE = "Target Support Files/HYNMain/Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				MODULEMAP_FILE = "Target Support Files/HYNMain/HYNMain.modulemap";
-				PRODUCT_NAME = HYNMain;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
 		827269710C98D60C14D46BC6AF9BF728 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -977,25 +997,9 @@
 			};
 			name = Release;
 		};
-		8647816359982FD9FB69AB7880765643 /* Release */ = {
+		97485488F36089A10BE0A8914492A42F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C39AED78C02B464C597003E5406040FB /* HYNMain.xcconfig */;
-			buildSettings = {
-				CODE_SIGN_IDENTITY = "iPhone Developer";
-				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HYNMain";
-				INFOPLIST_FILE = "Target Support Files/HYNMain/ResourceBundle-HYNMain-Info.plist";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				PRODUCT_NAME = HYNMain;
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				WRAPPER_EXTENSION = bundle;
-			};
-			name = Release;
-		};
-		BEBD2C4D8F28A48A51B76ED3244C1947 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = C39AED78C02B464C597003E5406040FB /* HYNMain.xcconfig */;
+			baseConfigurationReference = 2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1017,15 +1021,30 @@
 				SKIP_INSTALL = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
 			};
+			name = Debug;
+		};
+		AB0737D724E1F80FF3D39732C691FFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HYNMain";
+				INFOPLIST_FILE = "Target Support Files/HYNMain/ResourceBundle-HYNMain-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = HYNMain;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
 			name = Release;
 		};
-		D5B186EC364201AAC4054C253BAE8F0F /* Debug */ = {
+		D8FBDA6ADA5C4D878968B463D899C76E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C39AED78C02B464C597003E5406040FB /* HYNMain.xcconfig */;
+			baseConfigurationReference = 2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HYNMain";
@@ -1116,15 +1135,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		38ADCF1A10C8E77158372D17DDA47DBB /* Build configuration list for PBXNativeTarget "HYNMain-HYNMain" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				D5B186EC364201AAC4054C253BAE8F0F /* Debug */,
-				8647816359982FD9FB69AB7880765643 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		6E3B1D6AC5DE0841FC6746CCA554991A /* Build configuration list for PBXNativeTarget "HYNDEMO" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1143,6 +1153,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		8950100239E801137DF3BD634E04B0F5 /* Build configuration list for PBXNativeTarget "HYNMain-HYNMain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D8FBDA6ADA5C4D878968B463D899C76E /* Debug */,
+				AB0737D724E1F80FF3D39732C691FFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		8E615AEDC3FFDA6E5B827592206855CD /* Build configuration list for PBXNativeTarget "Pods-HYNMain_Tests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1152,11 +1171,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		C99E9BE5CB9D2DC67917591DD1D5D41B /* Build configuration list for PBXNativeTarget "HYNMain" */ = {
+		BB39F048AE39C9B7FDB6795305A25E69 /* Build configuration list for PBXNativeTarget "HYNMain" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				67B53FFE53DC5E10B30E04EC2E61FE2D /* Debug */,
-				BEBD2C4D8F28A48A51B76ED3244C1947 /* Release */,
+				97485488F36089A10BE0A8914492A42F /* Debug */,
+				3683CDAAF946A4DE4F262E4E02F8300C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

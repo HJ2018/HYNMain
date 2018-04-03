@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYNMain'
-  s.version          = '0.5.0'
+  s.version          = '0.6.0'
   s.summary          = 'HYNMain.'
 
 # This description is used to generate tags and improve search results.
@@ -30,15 +30,15 @@ HYNMain一个VeryGood的库
 
   s.ios.deployment_target = '8.0'
 
-#s.source_files = 'HYNMain/Classes/**/*'
-    s.subspec 'Controller' do |c|
-        c.source_files = 'HYNMain/Classes/Controller/**/*'
-        c.dependency 'HYNDEMO/Category'
-    end
-    s.subspec 'View' do |v|
-        v.source_files = 'HYNMain/Classes/View/**/*'
-        v.dependency 'HYNDEMO/Category'
-    end
+s.source_files = 'HYNMain/Classes/**/*'
+#s.subspec 'Controller' do |c|
+# c.source_files = 'HYNMain/Classes/Controller/**/*'
+#     c.dependency 'HYNDEMO/Category'
+# end
+#  s.subspec 'View' do |v|
+#     v.source_files = 'HYNMain/Classes/View/**/*'
+#    v.dependency 'HYNDEMO/Category'
+# end
   
    s.resource_bundles = {
      'HYNMain' => ['HYNMain/Assets/*.png']
@@ -47,5 +47,5 @@ HYNMain一个VeryGood的库
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  #s.dependency 'HYNDEMO/Category'
+  s.dependency 'HYNDEMO/Category'
 end

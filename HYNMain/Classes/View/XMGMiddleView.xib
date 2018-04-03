@@ -24,7 +24,7 @@
                 <imageView userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HYNMain.bundle/tabbar_np_playshadow" translatesAutoresizingMaskIntoConstraints="NO" id="7hD-tS-icP">
                     <rect key="frame" x="0.0" y="0.0" width="65" height="65"/>
                 </imageView>
-                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HYNMain.bundle/zxy_icon" translatesAutoresizingMaskIntoConstraints="NO" id="Flx-mT-bSt">
+                <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HYNMain.bundle/header_default" translatesAutoresizingMaskIntoConstraints="NO" id="Flx-mT-bSt">
                     <rect key="frame" x="11" y="11" width="43" height="43"/>
                     <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                 </imageView>
@@ -67,10 +67,10 @@
         </view>
     </objects>
     <resources>
+        <image name="HYNMain.bundle/header_default" width="16" height="16"/>
         <image name="HYNMain.bundle/tabbar_np_normal" width="16" height="16"/>
         <image name="HYNMain.bundle/tabbar_np_play" width="16" height="16"/>
         <image name="HYNMain.bundle/tabbar_np_playshadow" width="16" height="16"/>
         <image name="HYNMain.bundle/tabbar_np_shadow" width="16" height="16"/>
-        <image name="HYNMain.bundle/zxy_icon" width="16" height="16"/>
     </resources>
 </document>

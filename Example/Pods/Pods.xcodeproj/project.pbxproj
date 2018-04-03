@@ -7,52 +7,53 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		04609D75FB408DE21F717F8FC8D80229 /* XMGMiddleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = E631FD327ACFCE345D1401523E305103 /* XMGMiddleView.xib */; };
+		04609D75FB408DE21F717F8FC8D80229 /* XMGMiddleView.xib in Sources */ = {isa = PBXBuildFile; fileRef = 3E99B36D04B7A7549BE5EEF6D34319F2 /* XMGMiddleView.xib */; };
 		05DE8CA8A836FB5C7BAAD4278B0B0BA7 /* Pods-HYNMain_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = ED59C902E9F6E027F0C0DED0622121BE /* Pods-HYNMain_Example-dummy.m */; };
-		07FE386C640C01F5097FF957C04E3A5A /* XMGMiddleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 4FD94723E476B7B60A2B70DAFD7B14A9 /* XMGMiddleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		12B7E86056A3AE58FABD4B9A89210591 /* tabbar_np_playshadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BAE43B4D73623BFE712B60C396E89113 /* tabbar_np_playshadow@2x.png */; };
-		155480F603F25DD1CC649E5717D29F3C /* XMGNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 913C41FF620D5AC4F376BBA1590E2447 /* XMGNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		169ADF8EB74E16FAC411594B06C63C36 /* tabbar_np_loop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = BB80E3E4DF2AD7E15B6C76E7FFF8EA4C /* tabbar_np_loop@3x.png */; };
-		1712943094A3B31BDEE404051889BBC8 /* tabbar_np_playshadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7E0045A5912261CF70A4DAEB802B37B9 /* tabbar_np_playshadow@3x.png */; };
+		07FE386C640C01F5097FF957C04E3A5A /* XMGMiddleView.h in Headers */ = {isa = PBXBuildFile; fileRef = 69957BCFEDDEBABC551E464248C1BC1C /* XMGMiddleView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		155480F603F25DD1CC649E5717D29F3C /* XMGNavBar.h in Headers */ = {isa = PBXBuildFile; fileRef = 451A0F3781581D32D50F22C4F234B6F8 /* XMGNavBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1D3882FBD219EE1F0BC70BD25319C8B6 /* UIView+XMGLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B5D0DCC7F16BFA8E181543751163267 /* UIView+XMGLayout.m */; };
+		2160B5D2683D2C0382DD88B53903100D /* tabbar_np_playnon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B09C11B105C3B25767DF7AFB43808EDE /* tabbar_np_playnon@2x.png */; };
 		252A2F03AB236D22FDB4AF6ECE5AFDD1 /* UIImage+XMGImage.h in Headers */ = {isa = PBXBuildFile; fileRef = EACE65008DCCB215238EFEC078442627 /* UIImage+XMGImage.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		2AA5F0070CB80A4B923CC62AE1266A70 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
-		2D6C2E9490EFA949432DE2C1CE708E3D /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 25DBDF0819860C70CF32A2F30E8B818B /* XMGTabBar.m */; };
-		2EFA45011D6E441BFDD2378CD9C56002 /* HYNMain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14FEED110B47D9676E956D6A7FF0EA8C /* HYNMain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		38979EE69467F19F95A1D3099066BFFC /* tabbar_np_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 38A712A4BD88AB34BFC8468445BC02C0 /* tabbar_np_play@2x.png */; };
-		4106BDDF467145750E67A1A01D516F43 /* XMGTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 52245650447422B6F4DC943A45F9B927 /* XMGTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		4742DA2332E5DA321B9A7E6A2B5D5A46 /* XMGTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = FD2A611166C4F8EA6D9FFD4E2F59D969 /* XMGTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		48EA63DACAF56C0FCC7AE407605FD6BE /* tabbar_np_loop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 048A8E84882C60DA1D0D83EF2D957586 /* tabbar_np_loop@2x.png */; };
+		2D6C2E9490EFA949432DE2C1CE708E3D /* XMGTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CF83183E872E63CCDAD70460FBDA976A /* XMGTabBar.m */; };
+		2EFA45011D6E441BFDD2378CD9C56002 /* HYNMain-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 46A52CD77C361F2DDBAA055ABA2DEA52 /* HYNMain-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3200E86CB17EDBB06DE35BCC17608813 /* tabbar_np_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9284F61C57083239F38234470F027401 /* tabbar_np_shadow@2x.png */; };
+		4106BDDF467145750E67A1A01D516F43 /* XMGTabBarController.h in Headers */ = {isa = PBXBuildFile; fileRef = 596931BB460A294851AB5D58A1AC6725 /* XMGTabBarController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4742DA2332E5DA321B9A7E6A2B5D5A46 /* XMGTabBar.h in Headers */ = {isa = PBXBuildFile; fileRef = F015279B9A639B98B6F59A390A29B370 /* XMGTabBar.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		48FEB3F6CF7760F97B04DCED39524106 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
+		49ED5DC02C97EBA54D0D65CB21E1C6E2 /* tabbar_np_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1552E6FA5595C3B84F667AE8F71E7D45 /* tabbar_np_normal@3x.png */; };
 		53C0D51DE5F3BB59F6BDEDAD36C8D2D1 /* Pods-HYNMain_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 551A128A574581D1BC8FB2FCEF245CAB /* Pods-HYNMain_Tests-dummy.m */; };
-		5CBA385B7ECB3BBA4CED51EAF5F04C08 /* tabbar_np_playnon@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A834DA2938252B268CD5A613B9C444BB /* tabbar_np_playnon@2x.png */; };
-		64AA6C037AEC6F1FB6742F6E70972B89 /* tabbar_np_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D4CB05F8992386C523C6A26128B1755E /* tabbar_np_shadow@3x.png */; };
-		6684497D3E9FBEBA8E7F4E63D02D38EB /* XMGMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 98F1A2620855CDAC6608AF9FEE6DF3CB /* XMGMiddleView.m */; };
-		683DC46FFC54A10870C5E807FD0B0002 /* tabbar_np_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = ADA1F1ABE51431E36B9737AC42A233EC /* tabbar_np_play@3x.png */; };
+		552FD4953F0CEBEF04BE9A639BDD425F /* tabbar_np_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 65C97643484A1260627D4EACF07D2D2A /* tabbar_np_normal@2x.png */; };
+		6684497D3E9FBEBA8E7F4E63D02D38EB /* XMGMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = C51C571F60668FAF11BCECF09469281A /* XMGMiddleView.m */; };
 		6AF11C2A3BD33A8B3D8B47A9B5A9ECD4 /* HYNDEMO-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 494D19D6E9F486287ED6D42382AAB63F /* HYNDEMO-dummy.m */; };
+		6C0F924A446F70AF7A6C34CA23878072 /* header_default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9E0B906253CF02A71A27AD5E42CDC537 /* header_default@2x.png */; };
 		6E194BB56DD8870F7FA033D66B418B86 /* CALayer+PauseAimate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8C0A9814F8CE4B3D34DB45CF84CA2A /* CALayer+PauseAimate.m */; };
-		77044D79EEDA4565A8B1F8D9B49095D1 /* tabbar_np_playnon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = A647165534CB88F716657F0170B238D0 /* tabbar_np_playnon@3x.png */; };
-		7AF7A1E1CFDBAB508699087591B2276B /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 07AF8474324CC70831D79C441A4B18C2 /* XMGNavigationController.m */; };
+		7A511ECEE74282E5428111C894561CCA /* tabbar_np_play@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9FA9B24AE3738EC424F3A4F39C8C8E77 /* tabbar_np_play@2x.png */; };
+		7AF7A1E1CFDBAB508699087591B2276B /* XMGNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = F0B25076ED35BD605B4EBBE6A0A1CCF9 /* XMGNavigationController.m */; };
+		7DA03C71EB180C17BD2627BD996C5969 /* tabbar_np_playnon@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = D60BFF9614C94BF70803A0F255A029A2 /* tabbar_np_playnon@3x.png */; };
+		800F442521A11F8E74F4ACAD2676017E /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BFD4C4A4B6558645B8F092AAB50B8749 /* tabbar_bg@2x.png */; };
 		8CB060CDDBEEE40B01198B6FBA4228A7 /* HYNMain.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 4D954F5FF83C15A79AD25F1584C7B63C /* HYNMain.bundle */; };
 		94D12E414D3A76E61582A939363D1950 /* Pods-HYNMain_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AAF9DF6B08D83FEE6883CA5EFA49D044 /* Pods-HYNMain_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		95CE3BCABF6384974F56EC8797E029DF /* HYNDEMO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2680D96ACF7FF816FC7B933E2F27602F /* HYNDEMO.framework */; };
-		97CD250BFFF4D5E9D2885684D2D97A62 /* MainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = BC5F48C72D3B84C5A0E960938AB662AE /* MainModuleAPI.m */; };
-		97D0BE57CCBFED65C6D2AF832155BF50 /* tabbar_np_shadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B10D654DC15AEED06A0FBBA1E92CACD3 /* tabbar_np_shadow@2x.png */; };
-		9A8830609865B1C0ACFC5BD5461043DE /* tabbar_np_normal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 5C38E3931367A8AB713296D80C3933B5 /* tabbar_np_normal@2x.png */; };
+		97CD250BFFF4D5E9D2885684D2D97A62 /* MainModuleAPI.m in Sources */ = {isa = PBXBuildFile; fileRef = 840A9C0A79CF2624A479B5F954F73691 /* MainModuleAPI.m */; };
 		9A930E3DCFD35C4F6DA67CF02CB5EED1 /* HYNDEMO-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0FA84B73B1BE653118BACC556F4E6A4E /* HYNDEMO-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9ACF2BEC033849566C09EA4F4956E0CD /* XMGNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = CE68EEBE7BA9734F958B2EAEA6CEC43D /* XMGNavBar.m */; };
-		A20D505312C58770D307434FE8D72DA7 /* HYNMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E00EEEF2E84F71CE81AD62CECE7D2313 /* HYNMain-dummy.m */; };
-		A54BAE49526F29F5A12A071147ADFC3D /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = C8BE01A58DB45FEFE3279250D645A662 /* XMGTabBarController.m */; };
-		A94B7476F264E9E3F093E35D7BA3951C /* XMGNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 62794201F138B47F9F65A335BE8E2548 /* XMGNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9ACF2BEC033849566C09EA4F4956E0CD /* XMGNavBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 6789481D071DB6625D5711E230A655B7 /* XMGNavBar.m */; };
+		A20D505312C58770D307434FE8D72DA7 /* HYNMain-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5FADD0D3533429227B762D9600171A58 /* HYNMain-dummy.m */; };
+		A54BAE49526F29F5A12A071147ADFC3D /* XMGTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = AE65211DE3D36C3D2DEA1384C12D2D23 /* XMGTabBarController.m */; };
+		A61B2C65C8F7B1A178C21036D1025772 /* tabbar_np_loop@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 77C2A22923FC367583777BA70492695D /* tabbar_np_loop@3x.png */; };
+		A94B7476F264E9E3F093E35D7BA3951C /* XMGNavigationController.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D33177156021E4B8B1A540C00984050 /* XMGNavigationController.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACF10DAEAE58E7BE15DEA254C3565E26 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
-		B5C8367951D69A8DD38D5FCA3B561B23 /* tabbar_np_normal@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F644FD18B8F883402ABFF6EAE6D4D0 /* tabbar_np_normal@3x.png */; };
-		B8A769B74DC32DF9085271DF66574C0F /* tabbar_bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = BBBD6D081018D4D54A63480188C44147 /* tabbar_bg@2x.png */; };
+		B8DAA4C1680162DB8660E81CF19FCF81 /* tabbar_np_loop@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 2C030D5CC9C98922968B9C2A7DF28245 /* tabbar_np_loop@2x.png */; };
+		B948680A4A551E6BA2297B0CB5FAD936 /* tabbar_np_playshadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4CF93A826A52136BEA968A6E8875300E /* tabbar_np_playshadow@3x.png */; };
+		BA11F8605169C9EED5618A445EBEF5B2 /* tabbar_np_shadow@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 937AA8EB0D1452A476383936E5FC26BF /* tabbar_np_shadow@3x.png */; };
 		BADA5EE689C59C613F9B52F638535B69 /* UIImage+XMGImage.m in Sources */ = {isa = PBXBuildFile; fileRef = F7054BC8CDE777AE1287277DC51BC124 /* UIImage+XMGImage.m */; };
 		C552A161C786677A0619FF5B12ABD8B4 /* UIView+XMGLayout.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D3980FDC36ECB03D04E4680A0ACDCD7 /* UIView+XMGLayout.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C69D0B3D800ED52B890A0509B3CA5594 /* CALayer+PauseAimate.h in Headers */ = {isa = PBXBuildFile; fileRef = 86BFB8A9C9FC9F67E59F9FC3685401B9 /* CALayer+PauseAimate.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CDB8C06B793F3D687962249545706EEF /* Pods-HYNMain_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5C79787C0F827F2F3EC363BCECC3F0D9 /* Pods-HYNMain_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D8B0EB827B89AC3EB56D5DC8C91F8C5D /* tabbar_np_play@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = FD3C57DC66236D675A6C435D25B6448F /* tabbar_np_play@3x.png */; };
+		DE8D64813DF34215DDDB55BA547D2B38 /* tabbar_np_playshadow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = EF2EF2F889D62F9323C8117BD85CF795 /* tabbar_np_playshadow@2x.png */; };
 		EAA17DEE147CA7AAAA1DB0BA8016A699 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1C61F074DB9319561D425B546BC308AA /* Foundation.framework */; };
-		F36F0D92BDC8A82928E1A7536DB898E2 /* MainModuleAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 8E2281CB2083A77A94ED799EF2388BFC /* MainModuleAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F36F0D92BDC8A82928E1A7536DB898E2 /* MainModuleAPI.h in Headers */ = {isa = PBXBuildFile; fileRef = 3D7DEB4099210E09CA808B660A3CDE7D /* MainModuleAPI.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -87,82 +88,83 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		01F644FD18B8F883402ABFF6EAE6D4D0 /* tabbar_np_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_normal@3x.png"; path = "HYNMain/Assets/tabbar_np_normal@3x.png"; sourceTree = "<group>"; };
-		048A8E84882C60DA1D0D83EF2D957586 /* tabbar_np_loop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_loop@2x.png"; path = "HYNMain/Assets/tabbar_np_loop@2x.png"; sourceTree = "<group>"; };
-		07AF8474324CC70831D79C441A4B18C2 /* XMGNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGNavigationController.m; sourceTree = "<group>"; };
 		0D7C96DA3A88259E78D55AEA7F3B5470 /* Pods-HYNMain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNMain_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		0FA84B73B1BE653118BACC556F4E6A4E /* HYNDEMO-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNDEMO-umbrella.h"; sourceTree = "<group>"; };
-		14FEED110B47D9676E956D6A7FF0EA8C /* HYNMain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNMain-umbrella.h"; sourceTree = "<group>"; };
-		19DBBF304726317F9E7FCF60ED8CC469 /* HYNMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNMain-prefix.pch"; sourceTree = "<group>"; };
+		1552E6FA5595C3B84F667AE8F71E7D45 /* tabbar_np_normal@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_normal@3x.png"; path = "HYNMain/Assets/tabbar_np_normal@3x.png"; sourceTree = "<group>"; };
 		1C61F074DB9319561D425B546BC308AA /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		205A919980AD0B82895217D2CFF4CAD8 /* HYNMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYNMain.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		25DBDF0819860C70CF32A2F30E8B818B /* XMGTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGTabBar.m; sourceTree = "<group>"; };
+		1CE449D6DCC082AFFDB70A52F6885AAE /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2680D96ACF7FF816FC7B933E2F27602F /* HYNDEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = HYNDEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		29EACD49D6489077EC21A8DF3BA1A4CA /* Pods-HYNMain_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYNMain_Example.modulemap"; sourceTree = "<group>"; };
+		2C030D5CC9C98922968B9C2A7DF28245 /* tabbar_np_loop@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_loop@2x.png"; path = "HYNMain/Assets/tabbar_np_loop@2x.png"; sourceTree = "<group>"; };
 		2D200C427E61FFE7F988EF70CEB2D53B /* Pods-HYNMain_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYNMain_Example-acknowledgements.plist"; sourceTree = "<group>"; };
-		2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYNMain.xcconfig; sourceTree = "<group>"; };
+		30205550CE7526515AD48194C85D8014 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		35C1CECD5AD27CB2144BC79D7457F78F /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		38A712A4BD88AB34BFC8468445BC02C0 /* tabbar_np_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_play@2x.png"; path = "HYNMain/Assets/tabbar_np_play@2x.png"; sourceTree = "<group>"; };
 		3D5106D5D444D16FE9EB03D296C6030B /* HYNDEMO.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYNDEMO.framework; path = HYNDEMO.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D7DEB4099210E09CA808B660A3CDE7D /* MainModuleAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainModuleAPI.h; sourceTree = "<group>"; };
+		3E99B36D04B7A7549BE5EEF6D34319F2 /* XMGMiddleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = XMGMiddleView.xib; sourceTree = "<group>"; };
 		40FADCB53B88C7F50E4B5E2556AE13F7 /* HYNDEMO.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYNDEMO.modulemap; sourceTree = "<group>"; };
+		451A0F3781581D32D50F22C4F234B6F8 /* XMGNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGNavBar.h; sourceTree = "<group>"; };
+		46A52CD77C361F2DDBAA055ABA2DEA52 /* HYNMain-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNMain-umbrella.h"; sourceTree = "<group>"; };
 		494D19D6E9F486287ED6D42382AAB63F /* HYNDEMO-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYNDEMO-dummy.m"; sourceTree = "<group>"; };
+		4CF93A826A52136BEA968A6E8875300E /* tabbar_np_playshadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playshadow@3x.png"; path = "HYNMain/Assets/tabbar_np_playshadow@3x.png"; sourceTree = "<group>"; };
 		4D5E1C798C9471B645B983A55C030760 /* Pods-HYNMain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNMain_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		4D954F5FF83C15A79AD25F1584C7B63C /* HYNMain.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; name = HYNMain.bundle; path = "HYNMain-HYNMain.bundle"; sourceTree = BUILT_PRODUCTS_DIR; };
-		4FD94723E476B7B60A2B70DAFD7B14A9 /* XMGMiddleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGMiddleView.h; sourceTree = "<group>"; };
-		52245650447422B6F4DC943A45F9B927 /* XMGTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
 		5318C13C14B6A873EF1A55CC79AD3533 /* HYNDEMO-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNDEMO-prefix.pch"; sourceTree = "<group>"; };
 		551A128A574581D1BC8FB2FCEF245CAB /* Pods-HYNMain_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYNMain_Tests-dummy.m"; sourceTree = "<group>"; };
-		5C38E3931367A8AB713296D80C3933B5 /* tabbar_np_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_normal@2x.png"; path = "HYNMain/Assets/tabbar_np_normal@2x.png"; sourceTree = "<group>"; };
+		596931BB460A294851AB5D58A1AC6725 /* XMGTabBarController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGTabBarController.h; sourceTree = "<group>"; };
 		5C79787C0F827F2F3EC363BCECC3F0D9 /* Pods-HYNMain_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYNMain_Example-umbrella.h"; sourceTree = "<group>"; };
-		62794201F138B47F9F65A335BE8E2548 /* XMGNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGNavigationController.h; sourceTree = "<group>"; };
+		5FADD0D3533429227B762D9600171A58 /* HYNMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYNMain-dummy.m"; sourceTree = "<group>"; };
+		65C97643484A1260627D4EACF07D2D2A /* tabbar_np_normal@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_normal@2x.png"; path = "HYNMain/Assets/tabbar_np_normal@2x.png"; sourceTree = "<group>"; };
+		6789481D071DB6625D5711E230A655B7 /* XMGNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGNavBar.m; sourceTree = "<group>"; };
 		6861224A1EF1465ADF4266320D2278DC /* Pods_HYNMain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYNMain_Example.framework; path = "Pods-HYNMain_Example.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69957BCFEDDEBABC551E464248C1BC1C /* XMGMiddleView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGMiddleView.h; sourceTree = "<group>"; };
 		6C938FEEC632BB0672B6F022668863F3 /* Pods-HYNMain_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYNMain_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
 		6DB91EAD4C0E0E9160841172F6A701E6 /* Pods-HYNMain_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNMain_Example-resources.sh"; sourceTree = "<group>"; };
+		72B5724E7F839A7F1B014DFF15A93C55 /* HYNMain-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "HYNMain-prefix.pch"; sourceTree = "<group>"; };
+		77C2A22923FC367583777BA70492695D /* tabbar_np_loop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_loop@3x.png"; path = "HYNMain/Assets/tabbar_np_loop@3x.png"; sourceTree = "<group>"; };
 		79D0707C657011E5B681BA2A9508AF6D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		7D3980FDC36ECB03D04E4680A0ACDCD7 /* UIView+XMGLayout.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+XMGLayout.h"; path = "HYNDEMO/Classes/Category/UIView+XMGLayout.h"; sourceTree = "<group>"; };
-		7E0045A5912261CF70A4DAEB802B37B9 /* tabbar_np_playshadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playshadow@3x.png"; path = "HYNMain/Assets/tabbar_np_playshadow@3x.png"; sourceTree = "<group>"; };
-		81D47C95201B7C811ECCC266ADCCD263 /* HYNMain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYNMain.modulemap; sourceTree = "<group>"; };
-		82DE3D64FAE625C52DA7BF4A73E6823A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		840A9C0A79CF2624A479B5F954F73691 /* MainModuleAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainModuleAPI.m; sourceTree = "<group>"; };
 		86BFB8A9C9FC9F67E59F9FC3685401B9 /* CALayer+PauseAimate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+PauseAimate.h"; path = "HYNDEMO/Classes/Category/CALayer+PauseAimate.h"; sourceTree = "<group>"; };
-		8A135B80DB3924C08B18F7AB88E26FD1 /* ResourceBundle-HYNMain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HYNMain-Info.plist"; sourceTree = "<group>"; };
 		8C56CE135A93FB98D520CB3A719CE847 /* Pods_HYNMain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_HYNMain_Tests.framework; path = "Pods-HYNMain_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8E0FD8D814E787B4DBFF5C45DBEE92DE /* Pods-HYNMain_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-HYNMain_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		8E2281CB2083A77A94ED799EF2388BFC /* MainModuleAPI.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = MainModuleAPI.h; sourceTree = "<group>"; };
-		913C41FF620D5AC4F376BBA1590E2447 /* XMGNavBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGNavBar.h; sourceTree = "<group>"; };
+		9284F61C57083239F38234470F027401 /* tabbar_np_shadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_shadow@2x.png"; path = "HYNMain/Assets/tabbar_np_shadow@2x.png"; sourceTree = "<group>"; };
+		937AA8EB0D1452A476383936E5FC26BF /* tabbar_np_shadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_shadow@3x.png"; path = "HYNMain/Assets/tabbar_np_shadow@3x.png"; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		98F1A2620855CDAC6608AF9FEE6DF3CB /* XMGMiddleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGMiddleView.m; sourceTree = "<group>"; };
 		9B5D0DCC7F16BFA8E181543751163267 /* UIView+XMGLayout.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+XMGLayout.m"; path = "HYNDEMO/Classes/Category/UIView+XMGLayout.m"; sourceTree = "<group>"; };
 		9C8C0A9814F8CE4B3D34DB45CF84CA2A /* CALayer+PauseAimate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+PauseAimate.m"; path = "HYNDEMO/Classes/Category/CALayer+PauseAimate.m"; sourceTree = "<group>"; };
+		9D33177156021E4B8B1A540C00984050 /* XMGNavigationController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGNavigationController.h; sourceTree = "<group>"; };
+		9E0B906253CF02A71A27AD5E42CDC537 /* header_default@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "header_default@2x.png"; path = "HYNMain/Assets/header_default@2x.png"; sourceTree = "<group>"; };
+		9FA9B24AE3738EC424F3A4F39C8C8E77 /* tabbar_np_play@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_play@2x.png"; path = "HYNMain/Assets/tabbar_np_play@2x.png"; sourceTree = "<group>"; };
 		A1B09F88CF9179D731BC789D37BFE043 /* HYNMain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = HYNMain.framework; path = HYNMain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		A3688C61091168798684459DA34621D6 /* Pods-HYNMain_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNMain_Tests-frameworks.sh"; sourceTree = "<group>"; };
 		A4D9CCACC1C608B6B3CF94AE0AA9901B /* Pods-HYNMain_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-HYNMain_Tests.modulemap"; sourceTree = "<group>"; };
-		A647165534CB88F716657F0170B238D0 /* tabbar_np_playnon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playnon@3x.png"; path = "HYNMain/Assets/tabbar_np_playnon@3x.png"; sourceTree = "<group>"; };
-		A834DA2938252B268CD5A613B9C444BB /* tabbar_np_playnon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playnon@2x.png"; path = "HYNMain/Assets/tabbar_np_playnon@2x.png"; sourceTree = "<group>"; };
-		A992A2CD1E49CC75C2FA0422F8A3B36F /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		AAF9DF6B08D83FEE6883CA5EFA49D044 /* Pods-HYNMain_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-HYNMain_Tests-umbrella.h"; sourceTree = "<group>"; };
-		ADA1F1ABE51431E36B9737AC42A233EC /* tabbar_np_play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_play@3x.png"; path = "HYNMain/Assets/tabbar_np_play@3x.png"; sourceTree = "<group>"; };
-		B10D654DC15AEED06A0FBBA1E92CACD3 /* tabbar_np_shadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_shadow@2x.png"; path = "HYNMain/Assets/tabbar_np_shadow@2x.png"; sourceTree = "<group>"; };
+		AE65211DE3D36C3D2DEA1384C12D2D23 /* XMGTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
+		B09C11B105C3B25767DF7AFB43808EDE /* tabbar_np_playnon@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playnon@2x.png"; path = "HYNMain/Assets/tabbar_np_playnon@2x.png"; sourceTree = "<group>"; };
 		BA56F7A002B1C43BE83F92A1FC6612D7 /* Pods-HYNMain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNMain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		BAE43B4D73623BFE712B60C396E89113 /* tabbar_np_playshadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playshadow@2x.png"; path = "HYNMain/Assets/tabbar_np_playshadow@2x.png"; sourceTree = "<group>"; };
-		BB80E3E4DF2AD7E15B6C76E7FFF8EA4C /* tabbar_np_loop@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_loop@3x.png"; path = "HYNMain/Assets/tabbar_np_loop@3x.png"; sourceTree = "<group>"; };
-		BBBD6D081018D4D54A63480188C44147 /* tabbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_bg@2x.png"; path = "HYNMain/Assets/tabbar_bg@2x.png"; sourceTree = "<group>"; };
-		BC5F48C72D3B84C5A0E960938AB662AE /* MainModuleAPI.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = MainModuleAPI.m; sourceTree = "<group>"; };
-		C8BE01A58DB45FEFE3279250D645A662 /* XMGTabBarController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGTabBarController.m; sourceTree = "<group>"; };
-		CBA457E4BF3AC74E561AB7692C12A14E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
-		CE68EEBE7BA9734F958B2EAEA6CEC43D /* XMGNavBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGNavBar.m; sourceTree = "<group>"; };
+		BFD4C4A4B6558645B8F092AAB50B8749 /* tabbar_bg@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_bg@2x.png"; path = "HYNMain/Assets/tabbar_bg@2x.png"; sourceTree = "<group>"; };
+		C51C571F60668FAF11BCECF09469281A /* XMGMiddleView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGMiddleView.m; sourceTree = "<group>"; };
+		CD128C2FEEB196E5FB1F5A2185E4D88B /* HYNMain.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYNMain.xcconfig; sourceTree = "<group>"; };
+		CF83183E872E63CCDAD70460FBDA976A /* XMGTabBar.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGTabBar.m; sourceTree = "<group>"; };
 		D1CF148C14943FFB8C8718C6D91CA5B2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D4CB05F8992386C523C6A26128B1755E /* tabbar_np_shadow@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_shadow@3x.png"; path = "HYNMain/Assets/tabbar_np_shadow@3x.png"; sourceTree = "<group>"; };
+		D60BFF9614C94BF70803A0F255A029A2 /* tabbar_np_playnon@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playnon@3x.png"; path = "HYNMain/Assets/tabbar_np_playnon@3x.png"; sourceTree = "<group>"; };
+		DD8913006CFC4E2A85D92A910D992FEB /* ResourceBundle-HYNMain-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-HYNMain-Info.plist"; sourceTree = "<group>"; };
 		DDEA699E8E0A20AD95A4CB7E689FFDEE /* Pods-HYNMain_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNMain_Tests-resources.sh"; sourceTree = "<group>"; };
-		E00EEEF2E84F71CE81AD62CECE7D2313 /* HYNMain-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "HYNMain-dummy.m"; sourceTree = "<group>"; };
 		E1A55F222D5DEADB9E4D1EAA5FDB6045 /* HYNDEMO.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = HYNDEMO.xcconfig; sourceTree = "<group>"; };
-		E631FD327ACFCE345D1401523E305103 /* XMGMiddleView.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; path = XMGMiddleView.xib; sourceTree = "<group>"; };
+		E23E232A950FCBC532F1AD02EB0480D8 /* HYNMain.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = HYNMain.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		E77C757EFD584EB8B5FD2114BF23F46F /* HYNMain.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = HYNMain.modulemap; sourceTree = "<group>"; };
 		EACE65008DCCB215238EFEC078442627 /* UIImage+XMGImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+XMGImage.h"; path = "HYNDEMO/Classes/Category/UIImage+XMGImage.h"; sourceTree = "<group>"; };
 		ED59C902E9F6E027F0C0DED0622121BE /* Pods-HYNMain_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-HYNMain_Example-dummy.m"; sourceTree = "<group>"; };
+		EF2EF2F889D62F9323C8117BD85CF795 /* tabbar_np_playshadow@2x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_playshadow@2x.png"; path = "HYNMain/Assets/tabbar_np_playshadow@2x.png"; sourceTree = "<group>"; };
+		F015279B9A639B98B6F59A390A29B370 /* XMGTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGTabBar.h; sourceTree = "<group>"; };
 		F05D711861109BD5CFE79CA9F7AC69EF /* Pods-HYNMain_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-HYNMain_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F0B25076ED35BD605B4EBBE6A0A1CCF9 /* XMGNavigationController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = XMGNavigationController.m; sourceTree = "<group>"; };
 		F3B9C1C8AB44D41CF2ED2504A7758091 /* Pods-HYNMain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-HYNMain_Example.release.xcconfig"; sourceTree = "<group>"; };
 		F4FAC0764699F939FB864737D46600AA /* Pods-HYNMain_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-HYNMain_Example-frameworks.sh"; sourceTree = "<group>"; };
 		F7054BC8CDE777AE1287277DC51BC124 /* UIImage+XMGImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+XMGImage.m"; path = "HYNDEMO/Classes/Category/UIImage+XMGImage.m"; sourceTree = "<group>"; };
-		FD2A611166C4F8EA6D9FFD4E2F59D969 /* XMGTabBar.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = XMGTabBar.h; sourceTree = "<group>"; };
+		FC69166F4CF7998B4FA84A79FE3A72A3 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		FD3C57DC66236D675A6C435D25B6448F /* tabbar_np_play@3x.png */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = image.png; name = "tabbar_np_play@3x.png"; path = "HYNMain/Assets/tabbar_np_play@3x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -209,19 +211,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		0A5892B85B04BF3520C1FEF7296C5BB7 /* View */ = {
+		01173D909FFC2005EDF68A1AA701F3F2 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
-				4FD94723E476B7B60A2B70DAFD7B14A9 /* XMGMiddleView.h */,
-				98F1A2620855CDAC6608AF9FEE6DF3CB /* XMGMiddleView.m */,
-				E631FD327ACFCE345D1401523E305103 /* XMGMiddleView.xib */,
-				913C41FF620D5AC4F376BBA1590E2447 /* XMGNavBar.h */,
-				CE68EEBE7BA9734F958B2EAEA6CEC43D /* XMGNavBar.m */,
-				FD2A611166C4F8EA6D9FFD4E2F59D969 /* XMGTabBar.h */,
-				25DBDF0819860C70CF32A2F30E8B818B /* XMGTabBar.m */,
+				9D33177156021E4B8B1A540C00984050 /* XMGNavigationController.h */,
+				F0B25076ED35BD605B4EBBE6A0A1CCF9 /* XMGNavigationController.m */,
+				596931BB460A294851AB5D58A1AC6725 /* XMGTabBarController.h */,
+				AE65211DE3D36C3D2DEA1384C12D2D23 /* XMGTabBarController.m */,
 			);
-			name = View;
-			path = HYNMain/Classes/View;
+			name = Controller;
+			path = HYNMain/Classes/Controller;
+			sourceTree = "<group>";
+		};
+		09C55F1BCB24B963F5635386D52F63CF /* HYNMain */ = {
+			isa = PBXGroup;
+			children = (
+				01173D909FFC2005EDF68A1AA701F3F2 /* Controller */,
+				BBB31F15CF6138BE5FF0EE57AF624886 /* Pod */,
+				D462226C3232A141BB8FB737623D09CE /* PublicAPI */,
+				1990F2894AA3CF3FA1FBA54A0D6B78C0 /* Resources */,
+				E98F459E7E566C6BDF738869CAB927B4 /* Support Files */,
+				631B8C88D72D765208C627D1C21A9D51 /* View */,
+			);
+			name = HYNMain;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		180AB246F0E8BB6A87908363C281F37E /* Pods */ = {
@@ -230,6 +243,27 @@
 				46284C530F70AC3E6D6B59C46F45EC38 /* HYNDEMO */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		1990F2894AA3CF3FA1FBA54A0D6B78C0 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				9E0B906253CF02A71A27AD5E42CDC537 /* header_default@2x.png */,
+				BFD4C4A4B6558645B8F092AAB50B8749 /* tabbar_bg@2x.png */,
+				2C030D5CC9C98922968B9C2A7DF28245 /* tabbar_np_loop@2x.png */,
+				77C2A22923FC367583777BA70492695D /* tabbar_np_loop@3x.png */,
+				65C97643484A1260627D4EACF07D2D2A /* tabbar_np_normal@2x.png */,
+				1552E6FA5595C3B84F667AE8F71E7D45 /* tabbar_np_normal@3x.png */,
+				9FA9B24AE3738EC424F3A4F39C8C8E77 /* tabbar_np_play@2x.png */,
+				FD3C57DC66236D675A6C435D25B6448F /* tabbar_np_play@3x.png */,
+				B09C11B105C3B25767DF7AFB43808EDE /* tabbar_np_playnon@2x.png */,
+				D60BFF9614C94BF70803A0F255A029A2 /* tabbar_np_playnon@3x.png */,
+				EF2EF2F889D62F9323C8117BD85CF795 /* tabbar_np_playshadow@2x.png */,
+				4CF93A826A52136BEA968A6E8875300E /* tabbar_np_playshadow@3x.png */,
+				9284F61C57083239F38234470F027401 /* tabbar_np_shadow@2x.png */,
+				937AA8EB0D1452A476383936E5FC26BF /* tabbar_np_shadow@3x.png */,
+			);
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		231DA6814A579F81D113BDEC48153A1A /* Targets Support Files */ = {
@@ -241,20 +275,10 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		2D0E32CD8C18E5F69E1117439B997794 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				205A919980AD0B82895217D2CFF4CAD8 /* HYNMain.podspec */,
-				CBA457E4BF3AC74E561AB7692C12A14E /* LICENSE */,
-				A992A2CD1E49CC75C2FA0422F8A3B36F /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
 		3384E4A4A95659256F6E0628E3C0CB7A /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				9739919549532EF4CC1E7CA85987F16A /* HYNMain */,
+				09C55F1BCB24B963F5635386D52F63CF /* HYNMain */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -344,14 +368,19 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		70998DCE52304467172632D4C13F9CF4 /* PublicAPI */ = {
+		631B8C88D72D765208C627D1C21A9D51 /* View */ = {
 			isa = PBXGroup;
 			children = (
-				8E2281CB2083A77A94ED799EF2388BFC /* MainModuleAPI.h */,
-				BC5F48C72D3B84C5A0E960938AB662AE /* MainModuleAPI.m */,
+				69957BCFEDDEBABC551E464248C1BC1C /* XMGMiddleView.h */,
+				C51C571F60668FAF11BCECF09469281A /* XMGMiddleView.m */,
+				3E99B36D04B7A7549BE5EEF6D34319F2 /* XMGMiddleView.xib */,
+				451A0F3781581D32D50F22C4F234B6F8 /* XMGNavBar.h */,
+				6789481D071DB6625D5711E230A655B7 /* XMGNavBar.m */,
+				F015279B9A639B98B6F59A390A29B370 /* XMGTabBar.h */,
+				CF83183E872E63CCDAD70460FBDA976A /* XMGTabBar.m */,
 			);
-			name = PublicAPI;
-			path = HYNMain/Classes/PublicAPI;
+			name = View;
+			path = HYNMain/Classes/View;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -375,20 +404,6 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		9739919549532EF4CC1E7CA85987F16A /* HYNMain */ = {
-			isa = PBXGroup;
-			children = (
-				B1DDD8B6EABCD37F8B3E111E9821C60C /* Controller */,
-				2D0E32CD8C18E5F69E1117439B997794 /* Pod */,
-				70998DCE52304467172632D4C13F9CF4 /* PublicAPI */,
-				C5635C56E8C12B1CBFBDDFA5B6CAA264 /* Resources */,
-				F3FC47419C67FA77BE100028E306DF00 /* Support Files */,
-				0A5892B85B04BF3520C1FEF7296C5BB7 /* View */,
-			);
-			name = HYNMain;
-			path = ../..;
-			sourceTree = "<group>";
-		};
 		A926489AB450E303B21CCEFD2C26363D /* iOS */ = {
 			isa = PBXGroup;
 			children = (
@@ -397,48 +412,36 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		B1DDD8B6EABCD37F8B3E111E9821C60C /* Controller */ = {
+		BBB31F15CF6138BE5FF0EE57AF624886 /* Pod */ = {
 			isa = PBXGroup;
 			children = (
-				62794201F138B47F9F65A335BE8E2548 /* XMGNavigationController.h */,
-				07AF8474324CC70831D79C441A4B18C2 /* XMGNavigationController.m */,
-				52245650447422B6F4DC943A45F9B927 /* XMGTabBarController.h */,
-				C8BE01A58DB45FEFE3279250D645A662 /* XMGTabBarController.m */,
+				E23E232A950FCBC532F1AD02EB0480D8 /* HYNMain.podspec */,
+				30205550CE7526515AD48194C85D8014 /* LICENSE */,
+				FC69166F4CF7998B4FA84A79FE3A72A3 /* README.md */,
 			);
-			name = Controller;
-			path = HYNMain/Classes/Controller;
+			name = Pod;
 			sourceTree = "<group>";
 		};
-		C5635C56E8C12B1CBFBDDFA5B6CAA264 /* Resources */ = {
+		D462226C3232A141BB8FB737623D09CE /* PublicAPI */ = {
 			isa = PBXGroup;
 			children = (
-				BBBD6D081018D4D54A63480188C44147 /* tabbar_bg@2x.png */,
-				048A8E84882C60DA1D0D83EF2D957586 /* tabbar_np_loop@2x.png */,
-				BB80E3E4DF2AD7E15B6C76E7FFF8EA4C /* tabbar_np_loop@3x.png */,
-				5C38E3931367A8AB713296D80C3933B5 /* tabbar_np_normal@2x.png */,
-				01F644FD18B8F883402ABFF6EAE6D4D0 /* tabbar_np_normal@3x.png */,
-				38A712A4BD88AB34BFC8468445BC02C0 /* tabbar_np_play@2x.png */,
-				ADA1F1ABE51431E36B9737AC42A233EC /* tabbar_np_play@3x.png */,
-				A834DA2938252B268CD5A613B9C444BB /* tabbar_np_playnon@2x.png */,
-				A647165534CB88F716657F0170B238D0 /* tabbar_np_playnon@3x.png */,
-				BAE43B4D73623BFE712B60C396E89113 /* tabbar_np_playshadow@2x.png */,
-				7E0045A5912261CF70A4DAEB802B37B9 /* tabbar_np_playshadow@3x.png */,
-				B10D654DC15AEED06A0FBBA1E92CACD3 /* tabbar_np_shadow@2x.png */,
-				D4CB05F8992386C523C6A26128B1755E /* tabbar_np_shadow@3x.png */,
+				3D7DEB4099210E09CA808B660A3CDE7D /* MainModuleAPI.h */,
+				840A9C0A79CF2624A479B5F954F73691 /* MainModuleAPI.m */,
 			);
-			name = Resources;
+			name = PublicAPI;
+			path = HYNMain/Classes/PublicAPI;
 			sourceTree = "<group>";
 		};
-		F3FC47419C67FA77BE100028E306DF00 /* Support Files */ = {
+		E98F459E7E566C6BDF738869CAB927B4 /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				81D47C95201B7C811ECCC266ADCCD263 /* HYNMain.modulemap */,
-				2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */,
-				E00EEEF2E84F71CE81AD62CECE7D2313 /* HYNMain-dummy.m */,
-				19DBBF304726317F9E7FCF60ED8CC469 /* HYNMain-prefix.pch */,
-				14FEED110B47D9676E956D6A7FF0EA8C /* HYNMain-umbrella.h */,
-				82DE3D64FAE625C52DA7BF4A73E6823A /* Info.plist */,
-				8A135B80DB3924C08B18F7AB88E26FD1 /* ResourceBundle-HYNMain-Info.plist */,
+				E77C757EFD584EB8B5FD2114BF23F46F /* HYNMain.modulemap */,
+				CD128C2FEEB196E5FB1F5A2185E4D88B /* HYNMain.xcconfig */,
+				5FADD0D3533429227B762D9600171A58 /* HYNMain-dummy.m */,
+				72B5724E7F839A7F1B014DFF15A93C55 /* HYNMain-prefix.pch */,
+				46A52CD77C361F2DDBAA055ABA2DEA52 /* HYNMain-umbrella.h */,
+				1CE449D6DCC082AFFDB70A52F6885AAE /* Info.plist */,
+				DD8913006CFC4E2A85D92A910D992FEB /* ResourceBundle-HYNMain-Info.plist */,
 			);
 			name = "Support Files";
 			path = "Example/Pods/Target Support Files/HYNMain";
@@ -514,7 +517,7 @@
 			buildPhases = (
 				97B1D96843930370C75B8CD3EE86ADCB /* Sources */,
 				C1D0512E5177170C983D1421A70B8827 /* Frameworks */,
-				AA8C1C1F8ECE7E9930DEF33AB79C1B3B /* Resources */,
+				087791FDECBA18FAAEE031ADBAED3E5F /* Resources */,
 			);
 			buildRules = (
 			);
@@ -612,31 +615,32 @@
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		087791FDECBA18FAAEE031ADBAED3E5F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6C0F924A446F70AF7A6C34CA23878072 /* header_default@2x.png in Resources */,
+				800F442521A11F8E74F4ACAD2676017E /* tabbar_bg@2x.png in Resources */,
+				B8DAA4C1680162DB8660E81CF19FCF81 /* tabbar_np_loop@2x.png in Resources */,
+				A61B2C65C8F7B1A178C21036D1025772 /* tabbar_np_loop@3x.png in Resources */,
+				552FD4953F0CEBEF04BE9A639BDD425F /* tabbar_np_normal@2x.png in Resources */,
+				49ED5DC02C97EBA54D0D65CB21E1C6E2 /* tabbar_np_normal@3x.png in Resources */,
+				7A511ECEE74282E5428111C894561CCA /* tabbar_np_play@2x.png in Resources */,
+				D8B0EB827B89AC3EB56D5DC8C91F8C5D /* tabbar_np_play@3x.png in Resources */,
+				2160B5D2683D2C0382DD88B53903100D /* tabbar_np_playnon@2x.png in Resources */,
+				7DA03C71EB180C17BD2627BD996C5969 /* tabbar_np_playnon@3x.png in Resources */,
+				DE8D64813DF34215DDDB55BA547D2B38 /* tabbar_np_playshadow@2x.png in Resources */,
+				B948680A4A551E6BA2297B0CB5FAD936 /* tabbar_np_playshadow@3x.png in Resources */,
+				3200E86CB17EDBB06DE35BCC17608813 /* tabbar_np_shadow@2x.png in Resources */,
+				BA11F8605169C9EED5618A445EBEF5B2 /* tabbar_np_shadow@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6083DB096ED882DA0F04113D3A41D40F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				8CB060CDDBEEE40B01198B6FBA4228A7 /* HYNMain.bundle in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		AA8C1C1F8ECE7E9930DEF33AB79C1B3B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				B8A769B74DC32DF9085271DF66574C0F /* tabbar_bg@2x.png in Resources */,
-				48EA63DACAF56C0FCC7AE407605FD6BE /* tabbar_np_loop@2x.png in Resources */,
-				169ADF8EB74E16FAC411594B06C63C36 /* tabbar_np_loop@3x.png in Resources */,
-				9A8830609865B1C0ACFC5BD5461043DE /* tabbar_np_normal@2x.png in Resources */,
-				B5C8367951D69A8DD38D5FCA3B561B23 /* tabbar_np_normal@3x.png in Resources */,
-				38979EE69467F19F95A1D3099066BFFC /* tabbar_np_play@2x.png in Resources */,
-				683DC46FFC54A10870C5E807FD0B0002 /* tabbar_np_play@3x.png in Resources */,
-				5CBA385B7ECB3BBA4CED51EAF5F04C08 /* tabbar_np_playnon@2x.png in Resources */,
-				77044D79EEDA4565A8B1F8D9B49095D1 /* tabbar_np_playnon@3x.png in Resources */,
-				12B7E86056A3AE58FABD4B9A89210591 /* tabbar_np_playshadow@2x.png in Resources */,
-				1712943094A3B31BDEE404051889BBC8 /* tabbar_np_playshadow@3x.png in Resources */,
-				97D0BE57CCBFED65C6D2AF832155BF50 /* tabbar_np_shadow@2x.png in Resources */,
-				64AA6C037AEC6F1FB6742F6E70972B89 /* tabbar_np_shadow@3x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -785,7 +789,7 @@
 		};
 		3683CDAAF946A4DE4F262E4E02F8300C /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */;
+			baseConfigurationReference = CD128C2FEEB196E5FB1F5A2185E4D88B /* HYNMain.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -999,7 +1003,7 @@
 		};
 		97485488F36089A10BE0A8914492A42F /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */;
+			baseConfigurationReference = CD128C2FEEB196E5FB1F5A2185E4D88B /* HYNMain.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1028,7 +1032,7 @@
 		};
 		AB0737D724E1F80FF3D39732C691FFD2 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */;
+			baseConfigurationReference = CD128C2FEEB196E5FB1F5A2185E4D88B /* HYNMain.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HYNMain";
@@ -1044,7 +1048,7 @@
 		};
 		D8FBDA6ADA5C4D878968B463D899C76E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2ECBCA1E0E1F2F90F32776FF58F8B606 /* HYNMain.xcconfig */;
+			baseConfigurationReference = CD128C2FEEB196E5FB1F5A2185E4D88B /* HYNMain.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/HYNMain";

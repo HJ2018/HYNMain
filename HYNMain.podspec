@@ -30,22 +30,24 @@ HYNMain一个VeryGood的库
 
   s.ios.deployment_target = '8.0'
 
-s.source_files = 'HYNMain/Classes/**/*'
-#s.subspec 'Controller' do |c|
-# c.source_files = 'HYNMain/Classes/Controller/**/*'
-#     c.dependency 'HYNDEMO/Category'
-# end
-#  s.subspec 'View' do |v|
-#     v.source_files = 'HYNMain/Classes/View/**/*'
-#    v.dependency 'HYNDEMO/Category'
-# end
-  
-   s.resource_bundles = {
-     'HYNMain' => ['HYNMain/Assets/*.png']
-   }
+#s.source_files = 'HYNMain/Classes/**/*'
+    s.subspec 'Controller' do |c|
+     c.source_files = 'HYNMain/Classes/Controller/**/*'
+         c.dependency 'HYNDEMO/Category'
+         c.dependency 'HYNMain/View'
+     end
+      s.subspec 'View' do |v|
+         v.source_files = 'HYNMain/Classes/View/**/*'
+         v.dependency 'HYNDEMO/Category'
+         c.dependency 'HYNMain/Controller'
+     end
+      
+       s.resource_bundles = {
+         'HYNMain' => ['HYNMain/Assets/*.png']
+       }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
-  s.dependency 'HYNDEMO/Category'
+  #s.dependency 'HYNDEMO/Category'
 end

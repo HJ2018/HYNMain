@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYNMain'
-  s.version          = '0.8.0'
+  s.version          = '0.9.0'
   s.summary          = 'HYNMain.'
 
 # This description is used to generate tags and improve search results.
@@ -39,7 +39,7 @@ HYNMain一个VeryGood的库
       s.subspec 'View' do |v|
          v.source_files = 'HYNMain/Classes/View/**/*'
          v.dependency 'HYNDEMO/Category'
-         c.dependency 'HYNMain/Controller'
+         v.dependency 'HYNMain/Controller'
      end
       
        s.resource_bundles = {

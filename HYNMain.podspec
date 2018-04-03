@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYNMain'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'HYNMain.'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,13 @@ HYNMain一个VeryGood的库
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'HYNMain/Classes/**/*'
+#s.source_files = 'HYNMain/Classes/**/*'
+    s.subspec 'Controller' do |c|
+        c.source_files = 'HYNMain/Classes/Controller/**/*'
+    end
+    s.subspec 'View' do |v|
+        v.source_files = 'HYNMain/Classes/View/**/*'
+    end
   
    s.resource_bundles = {
      'HYNMain' => ['HYNMain/Assets/*.png']

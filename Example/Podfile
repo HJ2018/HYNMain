@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HYNMain_Example' do
+  pod 'HYNMain', :path => '../'
+
+  target 'HYNMain_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end

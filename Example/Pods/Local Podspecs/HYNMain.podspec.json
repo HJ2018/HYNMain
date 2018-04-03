@@ -1,0 +1,32 @@
+{
+  "name": "HYNMain",
+  "version": "0.1.0",
+  "summary": "A short description of HYNMain.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/HJ2018/HYNMain",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "HJ2018": "597079127@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/HJ2018/HYNMain.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HYNMain/Classes/**/*",
+  "resource_bundles": {
+    "HYNMain": [
+      "HYNMain/Assets/*.png"
+    ]
+  },
+  "dependencies": {
+    "HYNDEMO/Category": [
+
+    ]
+  }
+}

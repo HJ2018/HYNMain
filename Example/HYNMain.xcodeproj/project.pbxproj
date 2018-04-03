@@ -15,7 +15,6 @@
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* HYNAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* HYNAppDelegate.m */; };
 		6003F5A7195388D20070C39A /* HYNViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HYNViewController.m */; };
-		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,6 +22,9 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		A13CC6552072FF1C00D52B75 /* TestVC.m in Sources */ = {isa = PBXBuildFile; fileRef = A13CC6512072FF1C00D52B75 /* TestVC.m */; };
+		A13CC6562072FF1C00D52B75 /* TestVC2.m in Sources */ = {isa = PBXBuildFile; fileRef = A13CC6532072FF1C00D52B75 /* TestVC2.m */; };
+		A13CC658207309EE00D52B75 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A13CC657207309EE00D52B75 /* Images.xcassets */; };
 		DF1737A249493CCAA8FF2157 /* Pods_HYNMain_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6C3C49CA6702F323A673F946 /* Pods_HYNMain_Example.framework */; };
 /* End PBXBuildFile section */
 
@@ -49,7 +51,6 @@
 		6003F59D195388D20070C39A /* HYNAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNAppDelegate.m; sourceTree = "<group>"; };
 		6003F5A5195388D20070C39A /* HYNViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HYNViewController.h; sourceTree = "<group>"; };
 		6003F5A6195388D20070C39A /* HYNViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HYNViewController.m; sourceTree = "<group>"; };
-		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* HYNMain_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HYNMain_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		6003F5B7195388D20070C39A /* Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Tests-Info.plist"; sourceTree = "<group>"; };
@@ -58,15 +59,20 @@
 		606FC2411953D9B200FFA9A0 /* Tests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Tests-Prefix.pch"; sourceTree = "<group>"; };
 		6C3C49CA6702F323A673F946 /* Pods_HYNMain_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYNMain_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		794A86C4069C17057930B6E6 /* HYNMain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = HYNMain.podspec; path = ../HYNMain.podspec; sourceTree = "<group>"; };
+		794A86C4069C17057930B6E6 /* HYNMain.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = HYNMain.podspec; path = ../HYNMain.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		7B42C7660A8BC7FE40A0AFCD /* Pods-HYNMain_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYNMain_Example.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYNMain_Example/Pods-HYNMain_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		964046E58BA856E3AB23F179 /* Pods-HYNMain_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYNMain_Tests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-HYNMain_Tests/Pods-HYNMain_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		9F47E396E88BA8EB6B8CBB0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		9F47E396E88BA8EB6B8CBB0E /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		A13CC6512072FF1C00D52B75 /* TestVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC.m; sourceTree = "<group>"; };
+		A13CC6522072FF1C00D52B75 /* TestVC2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC2.h; sourceTree = "<group>"; };
+		A13CC6532072FF1C00D52B75 /* TestVC2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestVC2.m; sourceTree = "<group>"; };
+		A13CC6542072FF1C00D52B75 /* TestVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestVC.h; sourceTree = "<group>"; };
+		A13CC657207309EE00D52B75 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		BB95A09FEF6396784022FB94 /* Pods_HYNMain_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_HYNMain_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C02928E882BC0B0529406E57 /* Pods-HYNMain_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYNMain_Tests.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYNMain_Tests/Pods-HYNMain_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		C65EFA2277521D588D7B7F14 /* Pods-HYNMain_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-HYNMain_Example.release.xcconfig"; path = "Pods/Target Support Files/Pods-HYNMain_Example/Pods-HYNMain_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C9613E950BD4FC1A1420096B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		C9613E950BD4FC1A1420096B /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,13 +138,17 @@
 		6003F593195388D20070C39A /* Example for HYNMain */ = {
 			isa = PBXGroup;
 			children = (
+				A13CC6542072FF1C00D52B75 /* TestVC.h */,
+				A13CC6512072FF1C00D52B75 /* TestVC.m */,
+				A13CC6522072FF1C00D52B75 /* TestVC2.h */,
+				A13CC6532072FF1C00D52B75 /* TestVC2.m */,
 				6003F59C195388D20070C39A /* HYNAppDelegate.h */,
 				6003F59D195388D20070C39A /* HYNAppDelegate.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* HYNViewController.h */,
 				6003F5A6195388D20070C39A /* HYNViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
-				6003F5A8195388D20070C39A /* Images.xcassets */,
+				A13CC657207309EE00D52B75 /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for HYNMain";
@@ -280,8 +290,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
+				A13CC658207309EE00D52B75 /* Images.xcassets in Resources */,
 				71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */,
-				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -322,10 +332,12 @@
 			);
 			inputPaths = (
 				"${SRCROOT}/Pods/Target Support Files/Pods-HYNMain_Example/Pods-HYNMain_Example-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/HYNDEMO/HYNDEMO.framework",
 				"${BUILT_PRODUCTS_DIR}/HYNMain/HYNMain.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYNDEMO.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/HYNMain.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -403,6 +415,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A13CC6562072FF1C00D52B75 /* TestVC2.m in Sources */,
+				A13CC6552072FF1C00D52B75 /* TestVC.m in Sources */,
 				6003F59E195388D20070C39A /* HYNAppDelegate.m in Sources */,
 				6003F5A7195388D20070C39A /* HYNViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,

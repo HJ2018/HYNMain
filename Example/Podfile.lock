@@ -1,0 +1,19 @@
+PODS:
+  - HYNDEMO/Category (1.2.8)
+  - HYNMain (0.1.0):
+    - HYNDEMO/Category
+
+DEPENDENCIES:
+  - HYNMain (from `../`)
+
+EXTERNAL SOURCES:
+  HYNMain:
+    :path: ../
+
+SPEC CHECKSUMS:
+  HYNDEMO: 34311a8d6e5b8bd9ecbdd4ddad73f5ea1f9ade20
+  HYNMain: 3062076f6dd7c330d8674457e287cd8c90e67f0a
+
+PODFILE CHECKSUM: d0cf2c0d9cc3b1d6dc72540132506c30e5f4c14f
+
+COCOAPODS: 1.4.0

@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HYNMain'
-  s.version          = '1.1.2'
+  s.version          = '1.1.4'
   s.summary          = 'HYNMain.'
 
 # This description is used to generate tags and improve search results.
@@ -50,4 +50,5 @@ HYNMain一个VeryGood的库
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
     s.dependency 'HYNDEMO/Category'
+    s.dependency 'HYNDEMO/Base'
 end

@@ -217,8 +217,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				938F238607B375C56E9A68A7 /* [CP] Embed Pods Frameworks */,
-				A57F921082EA4E61E99AAC1A /* [CP] Copy Pods Resources */,
+				60B25B2888B70DA28DEC9A04 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -237,8 +236,6 @@
 				6003F5AA195388D20070C39A /* Sources */,
 				6003F5AB195388D20070C39A /* Frameworks */,
 				6003F5AC195388D20070C39A /* Resources */,
-				EEADB52F83F54D70C87636F7 /* [CP] Embed Pods Frameworks */,
-				FA100C0C530D5DF56BB8A0F1 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -325,13 +322,13 @@
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
 			showEnvVarsInLog = 0;
 		};
-		938F238607B375C56E9A68A7 /* [CP] Embed Pods Frameworks */ = {
+		60B25B2888B70DA28DEC9A04 /* [CP] Embed Pods Frameworks */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${SRCROOT}/Pods/Target Support Files/Pods-HYNMain_Example/Pods-HYNMain_Example-frameworks.sh",
+				"${PODS_ROOT}/Target Support Files/Pods-HYNMain_Example/Pods-HYNMain_Example-frameworks.sh",
 				"${BUILT_PRODUCTS_DIR}/HYNDEMO/HYNDEMO.framework",
 				"${BUILT_PRODUCTS_DIR}/HYNMain/HYNMain.framework",
 			);
@@ -342,22 +339,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYNMain_Example/Pods-HYNMain_Example-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		A57F921082EA4E61E99AAC1A /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYNMain_Example/Pods-HYNMain_Example-resources.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-HYNMain_Example/Pods-HYNMain_Example-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		ADDEF220E12183F0B88FBD2B /* [CP] Check Pods Manifest.lock */ = {
@@ -376,36 +358,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EEADB52F83F54D70C87636F7 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYNMain_Tests/Pods-HYNMain_Tests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		FA100C0C530D5DF56BB8A0F1 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-HYNMain_Tests/Pods-HYNMain_Tests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */

@@ -10,6 +10,9 @@
 #endif
 #endif
 
+#import "Base.h"
+#import "Sington.h"
+#import "XMGConst.h"
 #import "CALayer+PauseAimate.h"
 #import "UIImage+XMGImage.h"
 #import "UIView+XMGLayout.h"

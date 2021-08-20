@@ -1,19 +1,25 @@
 PODS:
-  - HYNDEMO/Category (1.2.8)
+  - HYNDEMO/Base (1.2.9)
+  - HYNDEMO/Category (1.2.9)
   - HYNMain (1.1.2):
+    - HYNDEMO/Base
     - HYNDEMO/Category
 
 DEPENDENCIES:
   - HYNMain (from `../`)
 
+SPEC REPOS:
+  "git@github.com:HJ2018/HYNBase.git":
+    - HYNDEMO
+
 EXTERNAL SOURCES:
   HYNMain:
-    :path: ../
+    :path: "../"
 
 SPEC CHECKSUMS:
-  HYNDEMO: 34311a8d6e5b8bd9ecbdd4ddad73f5ea1f9ade20
-  HYNMain: 51b46759292c3e93f49ec5a689860e8cd44cc30b
+  HYNDEMO: 35242515241a698b5701f3ee9f7434809bac2347
+  HYNMain: fb7155e29978d0cb880bc86737ab771814353c1e
 
-PODFILE CHECKSUM: d0cf2c0d9cc3b1d6dc72540132506c30e5f4c14f
+PODFILE CHECKSUM: 7d46c14af413d0e589d27988fd13b2172559e087
 
-COCOAPODS: 1.4.0
+COCOAPODS: 1.10.2

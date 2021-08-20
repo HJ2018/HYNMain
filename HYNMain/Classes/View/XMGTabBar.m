@@ -9,11 +9,10 @@
 #import "XMGTabBar.h"
 #import "XMGNavigationController.h"
 #import "XMGMiddleView.h"
-
+#import "Base.h"
 #import "UIView+XMGLayout.h"
 
-#define kScreenWidth [UIScreen mainScreen].bounds.size.width
-#define kScreenHeight [UIScreen mainScreen].bounds.size.height
+#define kBottomNOSafeArea_Height (iPhoneX ? 34.0 :0.0)
 
 @interface XMGTabBar()
 
@@ -110,7 +109,7 @@
     }
 
     self.middleView.centerX = self.frame.size.width * 0.5;
-    self.middleView.y = self.height - self.middleView.height;
+    self.middleView.y = self.height - self.middleView.height - kBottomNOSafeArea_Height;
 
 }
 

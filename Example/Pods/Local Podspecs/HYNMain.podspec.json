@@ -27,6 +27,9 @@
   "dependencies": {
     "HYNDEMO/Category": [
 
+    ],
+    "HYNDEMO/Base": [
+
     ]
   }
 }

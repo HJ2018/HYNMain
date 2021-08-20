@@ -1,6 +1,7 @@
 
 source 'git@github.com:HJ2018/HYNBase.git'
 source 'https://github.com/CocoaPods/Specs.git'
+platform :ios, '8.0'
 use_frameworks!
 
 target 'HYNMain_Example' do
